@@ -8,19 +8,13 @@ vrstva: "card"
 ---
 
 ### 1.5 Snížení počtu žáků ve třídě
-
-**Kdy použít (projevy žáka):** Žák má závažné problémy v chování, nízkou adaptabilitu, narušenou smyslovou integraci, závažné deficity kognitivních funkcí, nízkou úroveň sociálních a komunikačních dovedností nebo kombinaci těchto problémů a jen obtížně by zvládl třídu s běžným počtem žáků.
-
-**Co to je:** Snížení počtu žáků ve třídě, které usnadní začlenění žáka se závažnými symptomy a zvýší efektivitu vzdělávání; samo o sobě nestačí a musí být doprovázeno dalšími úpravami.
-
+**Kdy použít (projevy žáka):** Závažné problémové chování, nízká adaptabilita, narušená smyslová integrace, závažné deficity kognice, nízké sociální a komunikační dovednosti, případně jejich kombinace.
+**Co to je:** Snížení počtu žáků ve třídě, kde je vzděláván žák se závažnými symptomy, který by běžný počet obtížně zvládl.
 **Jak ve výuce:**
-- Zařaď žáka do třídy s nižším počtem žáků na základě doporučení ŠPZ, případně jej do ní v průběhu přeřaď.
-- V hlavním vzdělávacím proudu sniž počet žáků ve třídě dle možností školy.
-- Zvaž zařazení do školy či speciální třídy zřízené pro žáky se zdravotním postižením.
-- Doprovoď snížení počtu organizačními změnami a intervencí ve výuce.
-
+- Zaváděj na doporučení ŠPZ, od počátku docházky nebo přeřazením.
+- Vždy kombinuj s dalšími úpravami výuky a intervencí, samo snížení nestačí.
+- Míru snížení vol dle konkrétní situace a možností školy.
 **Pozor na:**
-- Nespoléhej jen na snížení počtu – vytvoř podmínky pro realizaci dalších podpůrných opatření (komplexní podpora).
-- Hlídej riziko kumulace více žáků s různým postižením v jedné třídě.
-
-**Stupně podpory:** Stupeň 1–3: neaplikuje se. Stupeň 4–5: aplikuje se dle postupu vlastní realizace.
+- Nespoléhej jen na snížení počtu; vytvoř podmínky pro další podpůrná opatření.
+- Riziko kumulace více žáků s různým postižením v jedné třídě.
+**Stupně podpory:** Neaplikuje se u stupňů 1–3; realizuje se až od stupně 4.

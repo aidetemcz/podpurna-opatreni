@@ -8,24 +8,20 @@ vrstva: "card"
 ---
 
 ### 5.2 Úprava rozsahu a obsahu učiva
+**Kdy použít (projevy žáka):** Dlouhodobé selhávání, snížené kognitivní funkce, deficity z diagnózy, nemožnost plnit ŠVP v plném rozsahu.
 
-**Kdy použít (projevy žáka):** Žák dlouhodobě selhává ve výuce, má oslabené kognitivní funkce a nerovnoměrný vývojový profil, není schopen v důsledku deficitů plnit obsah vzdělávání v celém rozsahu a ztrácí motivaci vlivem časté neúspěšnosti.
-
-**Co to je:** Redukce nároků na vzdělávání promítnutá do obsahu i rozsahu učiva podle individuálních možností a schopností žáka; může být i dočasná dle zdravotního stavu.
+**Co to je:** Redukce obsahu a rozsahu učiva podle individuálních možností žáka.
 
 **Jak ve výuce:**
-- Vycházej z výsledků psychologického či speciálněpedagogického vyšetření a z dlouhodobého selhávání žáka.
-- Uprav obsah a rozsah učiva v jednom či více předmětech, případně jen v konkrétní oblasti (např. redukce geometrie kvůli motorickým obtížím při rýsování).
-- Realizuj úpravu prostřednictvím IVP tam, kde je to potřeba.
-- Přizpůsob náročnost tak, aby žák učivo pochopil (jednodušší texty, jednodušší slovní úlohy).
+- Vyjdi z vyšetření a dlouhodobého selhávání žáka.
+- Uprav učivo v jednom či více předmětech, nebo jen v dílčí oblasti.
+- U snížených kognitivních schopností realizuj úpravu přes IVP.
+- Redukuj tak, aby žák učivo pochopil (jednodušší texty, úlohy).
 
 **Pozor na:**
-- Neodmítej redukci s odkazem na spravedlnost vůči ostatním — bez ní si žák buduje negativní vztah ke škole.
-- Redukce musí postihnout správný obsah i přiměřený rozsah.
+- Redukce musí postihnout správný obsah a přiměřený rozsah.
+- Bez úpravy žák selhává a buduje si negativní vztah ke škole.
 
-**Cílové skupiny:** ZŠ 1. stupeň, ZŠ 2. stupeň, SŠ.
+**Cílové skupiny:** ZŠ 1. a 2. stupeň, SŠ.
 
-**Stupně podpory:**
-- Stupeň 1: bez úpravy učiva, pouze zohlednění dílčích nedostatků v hodnocení.
-- Stupeň 2–3: úprava obsahu a rozsahu učiva přes IVP v předmětech, kde žák selhává.
-- Stupeň 4–5: úprava přes IVP při závažném handicapu, žák částečně až převážně vzděláván individuálně s AP.
+**Stupně podpory:** 1 jen zohlednění; 2–3 úprava přes IVP; 4–5 IVP + částečná/převážně individuální výuka s AP.

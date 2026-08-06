@@ -8,21 +8,18 @@ vrstva: "card"
 ---
 
 ### 6.1 Individualizace hodnocení
+**Kdy použít (projevy žáka):** Žák neplní očekávané výstupy kvůli oslabení kognitivních, jazykových, sociálně-emočních, motorických funkcí či smyslové integrace.
 
-**Kdy použít (projevy žáka):** Žák není schopen plnit očekávané školní výstupy v důsledku oslabení kognitivního výkonu, jazyka a jazykových funkcí, sociálních a emočních dovedností, představivosti a exekutivních funkcí, motorických funkcí nebo smyslové integrace.
-
-**Co to je:** Úprava způsobů prověřování učiva a dílčího i celkového hodnocení podle vývojové úrovně, specifik plynoucích z diagnózy a aktuálního zdravotního stavu, přizpůsobená typu školního zařízení.
+**Co to je:** Úprava způsobů prověřování a hodnocení podle vývojové úrovně a specifik žáka.
 
 **Jak ve výuce:**
-- Voli formu hodnocení (slovní, písemné, kvantitativní) i metody a typy prověřování (ústní, písemné, krátkodobé, průběžné) přísně individuálně podle potřeb žáka.
-- U vývojových poruch řeči používej testy s výběrem správné odpovědi nebo doplňovací testy.
-- Hodnoť objektivně a konkrétně, aby výsledky umožnily plánovat reálné cíle pro další období.
-- Vysvětli individualizované hodnocení ostatním žákům a seznam je s jeho důvody.
+- Přizpůsob formu hodnocení (slovní, písemná, kvantitativní) potřebám žáka.
+- Voľ vhodné metody prověřování (testy s výběrem odpovědi, doplňování).
+- Hodnoť objektivně a konkrétně dle typu zařízení.
+- Vysvětli spolužákům důvody individualizovaného hodnocení.
 
 **Pozor na:**
-- Nesrovnávej výsledky žáka s ostatními a nepodléhej formalismu bez individuálně zvolené metody.
-- Zajisti jednotnost pedagogického týmu; málo konkrétní hodnocení vede k nesprávně nastavené intervenci.
+- Nehodnoť srovnáváním s ostatními a nesklouzni k formalismu.
+- Zajisti jednotnost pedagogického týmu v přístupu k hodnocení.
 
-**Stupně podpory:**
-- Stupeň 1: aplikuj po zvážení dopadů úprav hodnocení na cíl vzdělávání.
-- Stupeň 2–5: aplikuj na základě konkrétního doporučení ŠPZ.
+**Stupně podpory:** 1 po zvážení dopadů na cíl vzdělávání; 2–5 na základě konkrétního doporučení ŠPZ.

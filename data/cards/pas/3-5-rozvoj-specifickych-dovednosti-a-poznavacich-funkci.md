@@ -8,21 +8,18 @@ vrstva: "card"
 ---
 
 ### 3.5 Rozvoj specifických dovedností a poznávacích funkcí
+**Kdy použít (projevy žáka):** Oslabení paměti a pozornosti, deficit exekutivních funkcí a nápodoby, narušená adaptace, ztráta motivace, deficit v porozumění či vyjadřování.
 
-**Kdy použít (projevy žáka):** Žák má oslabení paměti a pozornosti, deficit exekutivních funkcí, oslabenou nápodobu, výrazně narušenou adaptaci na školní prostředí, závažné problémy s motivací k výkonu nebo deficit v porozumění a vyjadřování.
-
-**Co to je:** Zohlednění deficitů kognitivních funkcí ovlivňujících učení, vytváření podmínek k jejich rozvoji a zvládání procesu učení dle individuálních možností žáka (u žáků s PAS typicky nerovnoměrný vývojový profil).
+**Co to je:** Zohlednění deficitů kognitivních funkcí a jejich rozvoj či kompenzace dle možností žáka pomocí strukturovaného učení.
 
 **Jak ve výuce:**
-- Aplikuj po celý vzdělávací proces s důrazem na potřeby konkrétního žáka.
-- Zaveď vizualizovaný denní režim ke kompenzaci deficitu adaptability, k posílení pozornosti, paměti a orientace v čase a prostoru.
-- Vnímej kognitivní funkce jako celek, ale rozvíjej je po jednotlivých složkách, které postupně tvoří ucelený systém.
-- Deficitní funkce rozvíjej (nápodoba, paměť, pozornost, porozumění), jiné kompenzuj (exekutivní funkce, adaptabilita) systémem organizace, plánování a předvídatelnosti.
-- Používej strukturované úlohy, upravené pracovní listy, procesuální schémata, motivační systém.
+- Zaveď vizualizovaný denní režim (adaptace, pozornost, paměť, orientace v čase).
+- Objektivně posuď úroveň a nerovnoměrný vývojový profil.
+- Rozvíjej nápodobu, paměť, pozornost, porozumění; exekutivu a adaptabilitu kompenzuj plánováním a předvídatelností.
+- Postupuj po dílčích funkcích, které tvoří ucelený systém.
 
 **Pozor na:**
-- Nepodceňuj deficity a zohledni nerovnoměrný vývojový profil; objektivně posuď vývojovou úroveň.
-- Nerozvíjej jen snadné oblasti na úkor náročných, aby ses vyhnul prohlubování nerovnoměrnosti.
-- Neomezuj samostatnost žáka, využívej efektivní metody.
+- Nepodceňuj deficity; nerozvíjej jen snadné oblasti na úkor náročných.
+- Neomezuj samostatnost, používej efektivní metody.
 
-**Cílové skupiny:** ZŠ 1. stupeň, ZŠ 2. stupeň, SŠ.
+**Cílové skupiny:** ZŠ 1. a 2. stupeň, SŠ.

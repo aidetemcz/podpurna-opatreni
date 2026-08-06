@@ -8,19 +8,16 @@ vrstva: "card"
 ---
 
 ### 3.8 Zvládání náročného chování
+**Kdy použít (projevy žáka):** Žák se projevuje úzkostně, s atypickou emoční reaktivitou, nutkavým chováním, deficity pozornosti, komunikace, adaptace a smyslového vnímání.
 
-**Kdy použít (projevy žáka):** Žák má problémy s pozorností, projevuje se úzkostně, má zvýšenou nebo atypickou emoční reaktivitu, deficity v myšlení, obtíže v komunikaci a sociálních interakcích, sníženou adaptabilitu, deficity smyslového vnímání nebo nutkavé chování.
-
-**Co to je:** Stanovení priorit v řešení obtížně zvladatelného chování a jeho funkční analýza (popis chování, za přítomnosti koho, kdy, kde, s jakou intenzitou, frekvencí a jak dlouho). Realizuje se, objeví-li se problémové chování.
+**Co to je:** Stanovení priorit a řešení obtížně zvladatelného chování na základě funkční analýzy (situace, osoby, čas, prostředí, intenzita, frekvence, trvání).
 
 **Jak ve výuce:**
-- Aplikuj při opakovaném problémovém chování.
-- Popiš konkrétní problémové chování a stanov hierarchii priorit řešení.
-- Postupuj ve čtyřech krocích: hledej zjevná a jednoduchá řešení, stanov priority, vyluč zdravotní příčinu jako spouštěč, proveď funkční analýzu chování.
-- Hledej spouštěče a nejméně přijatelné chování řeš přednostně.
-- Zajisti obecnou shodu všech zúčastněných na popisu i řešení chování.
+- Popiš konkrétní problémové chování.
+- Postupuj ve 4 krocích: zjevná řešení, hierarchie priorit, vyloučení zdravotní příčiny, funkční analýza.
+- Hledej spouštěče, posuď intenzitu a frekvenci.
+- Zajisti shodu všech zúčastněných na popisu i řešení.
 
 **Pozor na:**
-- Klaď důraz na identifikaci chování, jeho popis, frekvenci a intenzitu a následné hledání řešení (projevy sahají od drobných až po život ohrožující).
-- Nepodceňuj drobné problémy – vedou k nárůstu a nebezpečnosti chování.
-- Vyvaruj se neobjektivního pohledu a normalizování chování bez změny prostředí; počítej s personálními a časovými limity a neznalostí metodiky.
+- Nepodceňuj drobné projevy – narůstají a roste jejich nebezpečnost.
+- Vyhni se normalizování bez změny prostředí; zajisti personál a znalost metodiky.

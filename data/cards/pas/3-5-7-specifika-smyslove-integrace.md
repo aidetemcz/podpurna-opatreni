@@ -8,19 +8,15 @@ vrstva: "card"
 ---
 
 ### 3.5.7 Specifika smyslové integrace
+**Kdy použít (projevy žáka):** Hyper-/hyposenzitivita napříč smysly (dotyk, čich, chuť), potíže s koordinací a rovnováhou, sebepoškozování, problémy se spánkem, pozorností a senzorickou pamětí.
 
-**Kdy použít (projevy žáka):** Žák je hyper- či hyposenzitivní na smyslové podněty (taktilní, čichové, chuťové), má potíže s koordinací pohybů a rovnováhou, tendence k sebepoškozování či autostimulaci, problémy se spánkem, pozorností, senzorickou pamětí a podléhá ritualizaci.
-
-**Co to je:** Kompenzace a rozvoj integrace smyslového vnímání (sluch, zrak, vestibulární systém, taktilní, chuťové, čichové vnímání, propriocepce), jejíž narušení ovlivňuje učení i celkové fungování žáka ve škole.
+**Co to je:** Podpora integrace smyslového vnímání (sluch, zrak, rovnováha, taktilní, chuť, čich, propriocepce) a kompenzace jeho dysfunkcí.
 
 **Jak ve výuce:**
-- Aplikuj individuálně podle toho, které oblasti vnímání jsou u žáka deficitní.
-- Systematicky rozvíjej zlepšitelné funkce (cvičení rovnováhy a koordinace, koncentrace, sluchová a zraková percepce, senzorická paměť, prostorová orientace).
-- Vytvářej protetické prostředí (stravování mimo jídelnu při citlivosti na pachy, individuální převlékání mimo šatnu při citlivosti na dotyk).
-- Uprav vnější podmínky – volnější oblečení, přijatelné materiály, pomůcky, se kterými dítě dokáže pracovat.
-- Toleruj sebestimulační projevy za předem stanovených podmínek (frekvence v denním režimu, doba omezená minutkou či zvukovým signálem).
+- Správně identifikuj deficity, nezaměňuj je za rozmazlenost či negativismus.
+- Vytvářej protetické prostředí (jídlo mimo jídelnu, převlékání mimo šatnu).
+- Uprav podmínky a pomůcky (volnější oblečení, přijatelné materiály).
+- Nacvičuj rovnováhu, koordinaci, orientaci a senzorickou paměť.
 
 **Pozor na:**
-- Nepodceňuj deficity, nezaměňuj je za rozmazlenost, neposlušnost či negativismus.
-- Postupuj citlivě, s tolerancí; nevol nevhodné pomůcky (prstové barvy u citlivosti na dotyk).
-- Počítej s omezenou možností upravit prostředí a s nízkou flexibilitou žáka.
+- Nedostatek prostoru pro úpravy, necitlivý přístup, nevhodné pomůcky, nízká flexibilita žáka.

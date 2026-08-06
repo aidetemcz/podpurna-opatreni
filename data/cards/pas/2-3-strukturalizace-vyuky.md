@@ -8,22 +8,18 @@ vrstva: "card"
 ---
 
 ### 2.3 Strukturalizace výuky
+**Kdy použít (projevy žáka):** Oslabené sociální a emoční dovednosti, deficit exekutivních funkcí (orientace, plánování), oslabené kognitivní funkce, narušená adaptace.
 
-**Kdy použít (projevy žáka):** Žák má oslabené sociální, emoční a kognitivní funkce, deficit exekutivních funkcí (orientace v prostoru, plánování, organizace), narušenou adaptaci na školní prostředí a nízkou motivaci k výkonu.
-
-**Co to je:** Vytváření strukturovaného prostředí a strukturalizace činností vycházející z metodiky strukturovaného učení (TEACCH), která respektuje individuální vývojovou úroveň žáka.
+**Co to je:** Uplatnění principů strukturovaného učení (TEACCH) — individualizace, strukturalizace prostoru, času a činností, vizuální podpora, motivace.
 
 **Jak ve výuce:**
-
-- Uplatňovat principy strukturovaného učení: individuální přístup, strukturalizaci prostoru, času, aktivit a činností.
-- Poskytovat vizuální podporu a využívat motivační pobídky.
-- Prostředí prostorově a vizuálně upravit tak, aby žák chápal, co, kdy, kde, jak a proč bude vykonávat.
-- Míru strukturalizace přizpůsobit závažnosti symptomatiky a mentální úrovni žáka (od plného rozsahu po částečné využití).
+- Strukturuj prostředí, čas i jednotlivé aktivity.
+- Využívej vizuální podporu (denní režim, schémata).
+- Míru principů přizpůsob symptomatice a mentální úrovni žáka.
+- Stav na silných stránkách, zejména vizuálním vnímání a zrakové paměti.
 
 **Pozor na:**
-
-- Vycházet z vývojové úrovně žáka a individuálně posoudit možnosti strukturalizace.
-- Neaplikovat metodiku bez její znalosti, nevolit nepřiměřené vizuální pobídky ani nevhodné pomůcky.
-- Nepoužívat principy nadměrně ani nedostatečně.
+- Posuzuj vývojovou úroveň a možnosti strukturalizace u žáka.
+- Rizika: neznalost metodiky, nadměrná či nedostatečná strukturalizace, nevhodné pomůcky.
 
 **Cílové skupiny:** ZŠ 1. stupeň, ZŠ 2. stupeň, SŠ.

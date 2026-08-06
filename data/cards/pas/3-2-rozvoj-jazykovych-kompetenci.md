@@ -8,21 +8,18 @@ vrstva: "card"
 ---
 
 ### 3.2 Rozvoj jazykových kompetencí
+**Kdy použít (projevy žáka):** Chudá slovní zásoba, poruchy výslovnosti či plynulosti, SPU (dyslexie, dysgrafie, dysortografie), repetitivní jazyk, narušená prozodie.
 
-**Kdy použít (projevy žáka):** Žák neužívá jazyk komunikačně přiměřeně a efektivně, má vývojovou poruchu řeči, poruchy výslovnosti či plynulosti, SPU (dyslexie, dysgrafie, dysortografie), repetitivní a rigidní jazyk nebo narušenou prozodii.
-
-**Co to je:** Rozvoj slovní zásoby, porozumění řeči, výslovnosti, gramatiky a významově správného užívání slov v kontextu, včetně čtenářských dovedností a písemného projevu, s využitím již dosažené úrovně žáka.
+**Co to je:** Rozvoj slovní zásoby, porozumění, výslovnosti, gramatiky, písemného projevu i čtenářských dovedností dle úrovně žáka.
 
 **Jak ve výuce:**
-- Aplikuj přes IVP/edukační plán v individuálních i skupinových nácvicích a v reálných situacích s přiměřenou podporou.
-- Vycházej z aktuální vývojové úrovně žáka a volej postupy vhodné pro konkrétní dítě.
-- Používej vizuální pomůcky (obrázky, fotografie, slovní karty, schémata, scénáře, vlastní výkladové slovníky).
-- Zařazuj cvičení na fonematický sluch, slovní zásobu a souvislý verbální projev.
-- Ověřuj porozumění čtenému textu návodnými otázkami, čti v kratších celcích.
+- Vyjdi z aktuální úrovně žáka a kladeš přiměřené požadavky.
+- Zařazuj cvičení na fonematický sluch, slovní zásobu a souvislý projev.
+- Čti a piš v kratších celcích, ověřuj porozumění návodnými otázkami.
+- Používej vizuální pomůcky: obrázky, slovní karty, scénáře, schémata.
 
 **Pozor na:**
-- Správně ohodnoť úroveň žáka a klaď jen zvládnutelné požadavky; respektuj vývojovou úroveň a osvědčené postupy.
-- Počítej s rozdíly mezi verbálním vyjadřováním a porozuměním řeči.
-- Zajisti dostatečnou motivaci; vyvaruj se nepřiměřených nároků.
+- Nerespektování vývojové úrovně a metodiky; slabá motivace.
+- Rozdíl mezi vyjadřováním a porozuměním; nepřiměřené nároky rodiny.
 
-**Stupně podpory:** Stupeň 3: analyticko-syntetické čtení, možnost hůlkového písma, zapojení AP. Stupeň 4–5: globální metoda čtení, psaní na PC/tiskacím písmem, zapojení logopeda a AP.
+**Stupně podpory:** St. 1–2 v běžné výuce s drobnými úpravami; St. 3–5 individuálně, s AP a logopedem, čtení globální metodou.

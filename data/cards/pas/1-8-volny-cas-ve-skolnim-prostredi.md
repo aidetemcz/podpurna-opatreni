@@ -8,21 +8,14 @@ vrstva: "card"
 ---
 
 ### 1.8 Volný čas ve školním prostředí
-
-**Kdy použít (projevy žáka):** Žák má závažné obtíže se soustředěním, poruchy aktivity, zvýšenou emoční reaktivitu, úzkostné a depresivní projevy, nízkou úroveň sociálních a komunikačních dovedností, problémové chování, repetitivní obtížně odklonitelné zájmy či omezenou flexibilitu myšlení.
-
-**Co to je:** Speciálněpedagogická podpora pro přiměřené chování, organizaci a plánování aktivit ve volném čase (přestávky, volné hodiny, oběd, družina, zájmové vzdělávání).
-
+**Kdy použít (projevy žáka):** Závažné obtíže se soustředěním, porucha aktivity, zvýšená emoční reaktivita, úzkostné a depresivní stavy, nízké sociální a komunikační dovednosti, problémové chování, repetitivní zájmy, omezená flexibilita myšlení.
+**Co to je:** Speciálněpedagogická podpora žáka při zvládání volného času (přestávky, volné hodiny, oběd, družina, kroužky), jeho organizace a plánování.
 **Jak ve výuce:**
-- Uprav program a vyber vhodné aktivity podle specifik a možností žáka.
-- Plánuj a organizuj volný čas pomocí vizualizovaných prostředků (procesuální a pracovní schémata, zařazení do denního režimu či rozvrhu).
-- Vycházej ze zájmů žáka a připrav aktivity pro menší vybranou skupinku vrstevníků (stavebnice, kreslení, stolní a karetní hry, tablet).
-- Vymez a uprav prostor pro relaxaci ve třídě (podložka, koberec, paraván, stan, relaxační vak).
-- Zajisti dozor pedagogického pracovníka, u problémového chování asistenta pedagoga, v odůvodněných případech osobního asistenta.
-- Využij pomoc spolužáků na základě společných zájmů.
-
+- Uprav program a vol vhodné aktivity dle specifik a možností žáka.
+- Vytvoř plán aktivit s vizualizovanými prostředky (procesuální a pracovní schémata).
+- Využij pomoc spolužáků přes společné zájmy.
+- Dle potřeby zajisti AP, který monitoruje aktivity a pomáhá v konkrétní situaci.
 **Pozor na:**
-- Dobu trvání a volbu aktivit přizpůsob specifickým potřebám žáka.
-- Nepodceňuj potřebnou míru podpory při úpravě prostoru, plánování a dohledu; počítej s emoční labilitou a neodklonitelností zájmů.
-
+- Vol aktivity a jejich délku dle potřeb žáka.
+- Nepodceňuj potřebnou míru podpory při plánování, úpravě prostoru a dohledu.
 **Cílové skupiny:** ZŠ 1. stupeň, ZŠ 2. stupeň, SŠ.

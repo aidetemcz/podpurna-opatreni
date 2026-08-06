@@ -8,28 +8,16 @@ vrstva: "card"
 ---
 
 ### 4.1 Didaktické pomůcky
+**Kdy použít (projevy žáka):** Oslabení kognitivních funkcí, oslabení jazyka bránící pochopení učiva, oslabení představivosti a exekutivních funkcí, obtíže v motorice.
 
-**Kdy použít (projevy žáka):** Žák má oslabené kognitivní funkce, jazyk a jazykové funkce, oslabení v sociální, emoční a smyslové oblasti, narušené představivosti a exekutivní funkce a obtíže v motorice.
-
-**Co to je:** Využití didaktických pomůcek, které zprostředkovávají realitu, zvyšují názornost a využívají dobré vizuální vnímání žáka pro pochopení a zobecnění učiva.
+**Co to je:** Běžné pomůcky, které zprostředkovávají realitu, zvyšují názornost a usnadňují výuku.
 
 **Jak ve výuce:**
-
-- Volit pomůcku dle potřeb, vývojové úrovně a aktuálně probíraného učiva.
-- Posoudit vhodnost pomůcky (zda s ní žák umí manipulovat, rozumí jí, funkčně ji použije).
-- Zařadit individuální nácvik práce s pomůckou před jejím funkčním použitím.
-- Využívat pomůcky jako motivaci volenou dle zájmu žáka.
+- Volit pomůcku dle vývojové úrovně žáka a aktuálně probíraného učiva.
+- Ověřit, že s ní žák umí manipulovat, rozumí jí a funkčně ji použije.
+- Předřadit individuální nácvik práce s pomůckou.
+- Využívat i výpočetní techniku (tablet, notebook, interaktivní tabule).
 
 **Pozor na:**
-
-- Respektovat vývojovou úroveň, aby pomůcky plnily účel.
-- Znát metodiku vzdělávání žáků s PAS a nevolit nevhodně strukturované či univerzální pomůcky.
-- Zajistit variabilitu; opakováním pomůcky ztrácejí motivační charakter.
-
-**Stupně podpory:**
-
-- Stupeň 1: běžné pomůcky, ojediněle drobné úpravy (zvýraznění, větší písmo, část listu).
-- Stupeň 2: úprava pomůcek (zvětšování, stříhání, laminování, příklad na zvláštním listu).
-- Stupeň 3: technické pomůcky (tablet, notebook, interaktivní tabule) k vizualizaci a motivaci.
-- Stupeň 4: technické pomůcky vč. komunikátorů pro udržení pozornosti a dorozumívání.
-- Stupeň 5: široká škála pomůcek nezbytná; bez nich se žák není schopen učit.
+- Respektovat vývojovou úroveň — jinak pomůcka neplní účel.
+- Rizika: neznalost metodiky, malá variabilita pomůcek (ztráta motivačního charakteru).

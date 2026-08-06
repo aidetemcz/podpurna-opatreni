@@ -7,23 +7,15 @@ typ: "karta"
 vrstva: "card"
 ---
 
-### 1.6 Vzdělávání v jiném než školním prostředí (domácí prostředí nebo jiné než školské zařízení)
-
-**Kdy použít (projevy žáka):** Žák trpí závažným psychickým onemocněním nebo sdružením více onemocnění, případně závažným problémovým chováním s agresivitou a těžkými afektivními stavy, které mu úplně nebo zčásti znemožňuje vzdělávání ve škole.
-
-**Co to je:** Přechodné vzdělávání žáka v domácím prostředí v souvislosti se zhoršeným aktuálním stavem; do školy dochází jen ke konzultacím, pokud to jeho stav dovolí.
-
+### 1.6 Vzdělávání v jiném než školním prostředí
+**Kdy použít (projevy žáka):** Závažné psychické onemocnění nebo aktuální zhoršení stavu znemožňující výuku ve škole; sdružení více onemocnění či agresivita a těžké afektivní stavy.
+**Co to je:** Přechodné vzdělávání žáka v domácím prostředí podle IVP, s docházkou do školy jen ke konzultacím, umožňuje-li to jeho stav.
 **Jak ve výuce:**
-- Vyžádej si od zákonného zástupce lékařskou zprávu o aktuálním stavu žáka.
-- Realizuj vzdělávání na základě IVP na omezenou dobu s popsaným rozsahem učiva, četností konzultací a způsobem prověřování.
-- Využívej výpočetní techniku s internetem k výuce i přezkoušení (Skype, e-mail, Moodle, školní web).
-- Po zlepšení stavu zahaj postupnou, citlivě připravenou adaptaci na školní prostředí.
-- U dlouhodobě doma vzdělávaného žáka umožni návštěvu pedagoga, který s ním probere učivo.
-
+- Realizuj na doporučení ŠPZ po předložení lékařské zprávy, na omezenou dobu.
+- V IVP popiš rozsah učiva, četnost konzultací a způsob prověřování.
+- Ke konzultacím i přezkoušení využívej výpočetní techniku (e-mail, Skype, Moodle).
+- Po zlepšení stavu zajisti postupnou, citlivě připravenou adaptaci návratu.
 **Pozor na:**
-- Vzdělávání doma může žákovi vyhovovat a ztěžovat návrat (somatizace, manipulativní chování).
-- Počítej s tím, že rodina nemusí zajištění výuky doma zvládnout, nebo rodič odmítne návštěvu pedagoga.
-
+- Domácí režim může zhoršit návrat (somatizace, manipulace).
+- Rodina nemusí být schopna výuku doma zajistit; rodič může odmítnout návštěvu pedagoga.
 **Cílové skupiny:** ZŠ 1. stupeň, ZŠ 2. stupeň, SŠ.
-
-**Stupně podpory:** Stupeň 1–3: neaplikuje se. Stupeň 4: žák dochází do školy na konzultace a přezkoušení. Stupeň 5: žák nedochází, pedagog konzultuje v daných intervalech u něj doma.

@@ -8,20 +8,18 @@ vrstva: "card"
 ---
 
 ### 3.2.3 Rozvoj komunikačních schopností – v rovině pragmatické
+**Kdy použít (projevy žáka):** Deficit sociálních funkcí komunikace: malá spontaneita nebo nefunkční aktivita, snížená reciprocita, ulpívání na oblíbených tématech, potíže s vyprávěním.
 
-**Kdy použít (projevy žáka):** Žák má deficity v expresivní i receptivní řeči, problémy s uplatňováním sociálněkomunikačních dovedností, sníženou reciprocitu, ulpívá na oblíbených tématech a hůře aplikuje naučené dovednosti podle kontextu. Pragmatický deficit se projevuje i v písemném projevu.
-
-**Co to je:** Eliminace deficitů v sociálních (pragmatických) funkcích komunikace a jejich rozvoj v přirozených školních situacích – zdvořilostní obraty, vykání/tykání, žádost o pomoc, vedení dialogu, sdělování informací.
+**Co to je:** Eliminace a rozvoj pragmatických funkcí komunikace v přirozených situacích (pozdrav, oslovení, žádost o pomoc, vykání/tykání, dialog).
 
 **Jak ve výuce:**
-- Nejprve zjisti úroveň pragmatických funkcí (rozhovor, hodnocení vyprávění a forem společenského styku).
-- Stanov písemná pravidla (komu vykat/tykat, jak požádat o pomoc, jak sdělit, že žák nerozumí).
-- Vytvoř rozkreslené scénáře pro pozdravy a oslovení; zaveď deník pro informace z minulosti.
-- Nastav pravidla, kdy a jak dlouho může žák mluvit o svých zájmech.
-- Sleduj a usměrňuj vedení rozhovoru s vrstevníky přesnými formulacemi.
-- Rozvíjej souběžně neverbální komunikaci (zrakový kontakt, gesta, mimika, postoj).
+- Zjisti úroveň pragmatiky (rozhovor, způsob vyprávění).
+- Nastav písemná pravidla a scénáře (komu tykat/vykat, jak požádat o pomoc).
+- Zaveď deník k referování o zážitcích; urči pravidla mluvení o zájmech.
+- Rozvíjej i neverbální komunikaci (kontakt očí, gesta, mimika).
 
 **Pozor na:**
-- Zajisti včasnou diagnostiku a systematicky rozvíjej komunikaci v reálných situacích; respektuj vývojovou úroveň.
-- Nezaměňuj pragmatický deficit za bojkot komunikace; počítej s tím, že projev může zůstat nepřirozený.
-- Zajisti dostatečnou motivaci ke komunikaci.
+- Pragmatický deficit není bojkot; naučené se těžko přenáší do situací.
+- Respektuj úroveň a metodiku; slabá motivace ke komunikaci.
+
+**Stupně podpory:** St. 1–3 rozvoj pedagogem s vizuální podporou; St. 4–5 dle IVP, řečový terapeut a AP.

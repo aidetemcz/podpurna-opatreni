@@ -8,17 +8,15 @@ vrstva: "card"
 ---
 
 ### 3.3 Intervenční techniky
+**Kdy použít (projevy žáka):** Vývojová porucha motoriky, deficity pozornosti, vnímání či sociálních a komunikačních dovedností.
 
-**Kdy použít (projevy žáka):** Žák má vývojovou poruchu motorických funkcí, problémy v pozornosti, deficity ve vnímání nebo v sociálních a komunikačních dovednostech.
-
-**Co to je:** Doplňkové aktivity s motivačním a relaxačním charakterem, které rozvíjejí pohybové dovednosti, koordinaci, jemnou motoriku i sociální a komunikační dovednosti (zooterapie, arteterapie, muzikoterapie, ergoterapie, dramaterapie, terapie tancem, snoezelen).
+**Co to je:** Doplňkové terapeutické aktivity (zooterapie, arteterapie, muzikoterapie, ergoterapie, dramaterapie, terapie tancem, snoezelen) s motivačním a relaxačním účinkem.
 
 **Jak ve výuce:**
-- Zapojuj žáka do technik v rámci výuky nebo zájmových aktivit, umožňuje-li to škola.
-- Vybírej techniky v souladu se zájmy žáka a jen tam, kde z nich bude profitovat.
-- Postupuj dle metodiky strukturovaného učení: zařaď intervenci do denního režimu, vytvoř pracovní či procesuální schéma.
-- Uprav prostředí a zvol vhodnou motivaci, není-li aktivita sama motivující.
+- Zapoj žáka dle jeho zájmů a jen tam, kde bude profitovat.
+- Zařaď techniku do denního režimu a uprav prostředí.
+- Vytvoř pracovní či procesuální schéma, zajisti vhodnou motivaci.
 
 **Pozor na:**
-- Využívej techniky vhodně a nepřeceňuj jejich význam.
-- Zohledni deficity v motorice a smyslovém vnímání, které mohou bránit využití (hypersenzitivita na dotyk, hluk, zrakové podněty, pachy, potíže s polohocitem, fobie ze zvířat).
+- Nepřeceňuj význam technik.
+- Deficity smyslů (hypersenzitivita na dotyk, hluk, pachy, fobie ze zvířat) mohou bránit jejich využití.

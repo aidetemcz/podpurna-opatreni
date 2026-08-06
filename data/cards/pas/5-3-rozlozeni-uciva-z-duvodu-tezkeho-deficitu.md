@@ -8,24 +8,19 @@ vrstva: "card"
 ---
 
 ### 5.3 Rozložení učiva z důvodu těžkého deficitu
+**Kdy použít (projevy žáka):** Dlouhodobá nepřítomnost (hospitalizace, léčebna), zhoršený zdravotní stav, závažné problémové chování.
 
-**Kdy použít (projevy žáka):** Žák má problémy se zvládnutím učiva vyplývající ze základní diagnózy, je dlouhodobě nepřítomen kvůli hospitalizaci či pobytu v léčebně, objevuje se závažné problémové chování nebo žák na přechodnou dobu ztrácí schopnost učit se novým dovednostem.
-
-**Co to je:** Rozložení učiva do delšího časového úseku s ohledem na aktuální možnosti žáka tak, aby zvládl učivo v celém rozsahu nebo jeho částech.
+**Co to je:** Rozložení učiva do delšího časového úseku podle aktuálních možností žáka.
 
 **Jak ve výuce:**
-- Zhodnoť aktuální možnosti žáka a zvol množství učiva, které je schopen zvládnout.
-- Zpracuj plán rozložení učiva a seznam s ním rodiče i žáka.
-- Zařaď do plánu harmonogram průběžného prověřování a termíny konzultací.
-- Zajisti doučování, na kterém postupně vysvětluješ neprobrané učivo a ověřuješ znalosti; při potřebě dochází pedagog i do domácího prostředí.
+- Zpracuj plán rozložení učiva, seznam s ním rodiče i žáka.
+- Zahrň harmonogram prověřování a termíny konzultací.
+- Zajisti doučování, vysvětluj nepochopené a ověřuj znalosti.
 
 **Pozor na:**
-- Respektuj závažné důvody nepřítomnosti a nepřetěžuj žáka soustavnými požadavky.
-- Nerozkládej učivo dlouhodobě, pokud ho žák ani v delším horizontu nezvládne — na místě je pak redukce učiva.
+- Nepřetěžuj žáka, respektuj závažné důvody nemožnosti plnit učivo.
+- Pokud žák učivo ani v delším horizontu nezvládne, je na místě redukce.
 
-**Cílové skupiny:** ZŠ 1. stupeň, ZŠ 2. stupeň, SŠ.
+**Cílové skupiny:** ZŠ 1. a 2. stupeň, SŠ.
 
-**Stupně podpory:**
-- Stupeň 1–2: kratší přechodná nepřítomnost, plán rozložení učiva a konzultace.
-- Stupeň 3–4: dlouhodobé či opakované pobyty v léčebně, pravidelné doučování s ověřováním.
-- Stupeň 5: dlouhodobě opakovaná nepřítomnost, doučování v domácím prostředí dle zdravotního stavu.
+**Stupně podpory:** 1–2 přechodná absence, konzultace; 3–4 doučování při dlouhodobých pobytech; 5 doučování v domácím prostředí.

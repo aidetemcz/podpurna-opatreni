@@ -8,24 +8,20 @@ vrstva: "card"
 ---
 
 ### 5.5 Obohacování učiva
+**Kdy použít (projevy žáka):** Mimořádné schopnosti v určité oblasti, výrazný (i ulpívavý) zájem o téma, motivace k činnostem přes vlastní zájmy.
 
-**Kdy použít (projevy žáka):** Žák disponuje specifickými dovednostmi v určitých oblastech, má výrazný zájem o některá témata (na nichž může ulpívat a obtížně se odklání) a lze jej těmito zájmy motivovat k dalším činnostem.
-
-**Co to je:** Přiměřené rozšiřování základního učiva nad rámec ŠVP podle individuálních možností, schopností a zájmů žáka.
+**Co to je:** Přiměřené rozšiřování základního učiva podle možností a schopností žáka.
 
 **Jak ve výuce:**
-- Vycházej z psychologického či speciálněpedagogického vyšetření prokazujícího mimořádné schopnosti, případně z výrazného zájmu žáka.
-- Rozšiřuj obsah učiva v jednom či více předmětech (pracovní listy a studijní materiály navíc, referát, projekt).
-- Uplatňuj individuální přístup při zadávání i kontrole, učivo navíc s žákem probírej a konzultuj.
-- Sdílej se žákem jeho zájem, rozvíjej jej a posiluj tím motivaci k docházce; umožni mu prezentovat znalosti před kolektivem a posílit tak jeho postavení.
+- Vyjdi z vyšetření mimořádných schopností, nebo z výrazného zájmu žáka.
+- Rozšiřuj učivo v jednom či více předmětech (pracovní listy, referát, projekt).
+- Sdílej se žákem jeho zájem a posiluj motivaci k učení.
+- Umožni žákovi prezentovat znalosti před třídou.
 
 **Pozor na:**
-- Důsledně respektuj individuální možnosti a schopnosti žáka.
-- Hlídej ulpívání na jednom zájmu na úkor dalšího vzdělávání a přeceňování schopností vedoucí k přetěžování a jednostrannému rozvoji.
+- Respektuj individuální možnosti; nepřeceňuj schopnosti, hrozí přetěžování.
+- Hlídej ulpívání na jednom zájmu na úkor dalšího vzdělávání.
 
-**Cílové skupiny:** ZŠ 1. stupeň, ZŠ 2. stupeň, SŠ.
+**Cílové skupiny:** ZŠ 1. a 2. stupeň, SŠ.
 
-**Stupně podpory:**
-- Stupeň 1: rozšiřování učiva dle schopností žáka s individuální konzultací.
-- Stupeň 2: rozšiřování zaměřené na oblasti zvýšeného zájmu žáka, s možností prezentace před kolektivem.
-- Stupeň 3–5: neaplikuje se.
+**Stupně podpory:** Aplikuje se jen ve stupni 1–2; ve stupni 3–5 se neaplikuje.

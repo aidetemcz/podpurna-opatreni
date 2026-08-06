@@ -8,19 +8,13 @@ vrstva: "card"
 ---
 
 ### 1.4 Úprava zasedacího pořádku
-
-**Kdy použít (projevy žáka):** Žák má problémy s pozorností, úzkostné projevy, poruchy aktivity, zvýšenou emoční reaktivitu, problémové chování, nízkou úroveň sociálních a komunikačních dovedností či nízkou adaptabilitu a obtížně zvládá kontakt s ostatními.
-
-**Co to je:** Preventivní přesazení žáka na základě jeho chování a reakcí spolužáků, které předchází krizovým situacím ve skupině a udrží žáka v kolektivu bez problémového chování.
-
+**Kdy použít (projevy žáka):** Problémy s pozorností, hypersenzitivita, úzkostné či nutkavé projevy, porucha aktivity, problémové chování, nízké sociální a komunikační dovednosti, nízká adaptabilita.
+**Co to je:** Preventivní úprava místa žáka ve třídě, která předchází krizovým situacím a udrží žáka v kolektivu bez problémového chování.
 **Jak ve výuce:**
-- Přesazení dopředu naplánuj a žáky s ním seznam.
-- Přesaď žáka, který obtížně zvládá blízkost jiných (úzkost, hypersenzitivita, snížená koncentrace), nebo naopak nerespektuje osobní zónu spolužáků – vzdal ho či oddel vizuálně.
-- Posaď žáka blíže k sobě, potřebuješ-li intenzivnější kontakt a zpětnou vazbu.
-- Uprav místo pro efektivní spolupráci s asistentem pedagoga.
-- U žáka s afektivními záchvaty vol místo blízko dveří pro snadné opuštění třídy.
-- Motivuj žáka ke změně místa a situaci s ním důkladně prober.
-
+- Přesazení předem naplánuj a žáky s ním seznam.
+- Přesaď žáka, který obtížně snáší blízkost jiných nebo sám nerespektuje osobní zónu.
+- Posaď žáka blíž k sobě, potřebuješ-li lepší kontakt a zpětnou vazbu.
+- U afektivních záchvatů vol místo u dveří pro snadný odchod ze třídy.
 **Pozor na:**
-- Přesazení nesmí být restrikcí ani vylučováním z kolektivu („Půjdeš do poslední lavice!“).
-- U obtížně akceptovaného žáka pracuj s kolektivem a domluv pravidla pobytu (přesazování, přijímání ve skupinové práci).
+- U žáka nevědomého si svého chování zapracuj na motivaci ke změně místa.
+- Nesmí být trestem ("Půjdeš do poslední lavice!"); s neoblíbeným žákem pracuj přes pravidla v kolektivu.

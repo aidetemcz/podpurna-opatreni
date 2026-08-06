@@ -8,19 +8,13 @@ vrstva: "card"
 ---
 
 ### 1.2 Další pracovní místo pro žáka (ve třídě i mimo třídu)
-
-**Kdy použít (projevy žáka):** Žák nedokáže po celou dobu výuky pracovat na stabilním místě v kolektivu – má nízkou adaptabilitu, deficity pozornosti, zvýšenou unavitelnost, řečové a komunikační problémy, hypersenzitivitu, úzkostné projevy či poruchu aktivity.
-
-**Co to je:** Vytvoření dalšího pracovního místa v rámci třídy nebo mimo ni, které eliminuje deficity žáka a zajistí klid na práci i podmínky pro celý kolektiv.
-
+**Kdy použít (projevy žáka):** Problémy s pozorností, hypersenzitivita, úzkostné projevy, porucha aktivity, nízká adaptabilita, deficity komunikace, zvýšená unavitelnost.
+**Co to je:** Vytvoření dalšího pracovního místa ve třídě nebo mimo ni pro žáka, který nezvládne celou výuku na stabilním místě v kolektivu.
 **Jak ve výuce:**
-- Zaváděj opatření preventivně, nikoli jako restrikci.
-- Další místo vytvoř podle potřeb žáka: pro výrazné deficity pozornosti spíše mimo třídu s minimem rušivých podnětů.
-- Pro pasivnějšího žáka zřiď místo ve třídě oddělené policí či paravánem.
-- Využívej místo při prověřování učiva (diktáty, testy, písemné práce) pro klid na práci.
-- Zajisti žákovi předvídatelnost a předem informaci, kdy zde bude pracovat (vizualizovaný režim, rozvrh, pracovní schéma).
-- Uplatni i přechodně dle aktuálního zdravotního stavu.
-
+- Zaváděj preventivně, ne jako trest za chování.
+- Místo uzpůsob potřebám žáka: při deficitu pozornosti spíš mimo třídu, u pasivního žáka oddělený kout ve třídě (police, paraván).
+- Zajisti předvídatelnost: vizualizovaným režimem předem oznam, kdy tam bude pracovat.
+- Využívej i pro klid při testech, diktátech a písemných pracích.
 **Pozor na:**
-- Místo nesmí fungovat restriktivně („Zlobíš, jdeš do kabinetu.“).
-- Vhodně zvol umístění a úpravu místa; počítej s možným odmítáním žáka odejít a s nedostatkem prostoru.
+- Nesmí fungovat restriktivně ("Zlobíš, jdeš do kabinetu.").
+- Riziko odmítání odchodu, nevhodné umístění, nedostatek prostoru.

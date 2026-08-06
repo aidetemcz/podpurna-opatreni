@@ -414,7 +414,9 @@ h3,
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   padding: 14px 18px;
-  font: inherit;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
   color: inherit;
   background: #fff;
   max-height: 200px;
@@ -432,13 +434,20 @@ h3,
   background: var(--accent);
   color: #fff;
   border: none;
-  border-radius: var(--pill);
-  padding: 0 26px;
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
+  border-radius: 50%;
+  width: 52px;
   height: 52px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   transition: background 0.15s;
+}
+
+.send svg {
+  display: block;
+  transform: translateX(-1px);
 }
 
 .send:hover:not(:disabled) {

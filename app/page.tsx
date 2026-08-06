@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { CATEGORIES, getCategory, type CategoryCode } from '@/lib/categories';
 import { Logo } from './Logo';
+import { Markdown } from './Markdown';
 
 interface Msg {
   role: 'user' | 'assistant';
@@ -216,16 +217,21 @@ export default function Page() {
                 {messages.map((m, i) => (
                   <div key={i} className={`msg ${m.role}`}>
                     <div className="bubble">
-                      {m.content ||
-                        (lastAssistantEmpty && i === messages.length - 1 ? (
-                          <span className="dots">
-                            <span>·</span>
-                            <span>·</span>
-                            <span>·</span>
-                          </span>
+                      {m.content ? (
+                        m.role === 'assistant' ? (
+                          <Markdown>{m.content}</Markdown>
                         ) : (
-                          ''
-                        ))}
+                          m.content
+                        )
+                      ) : lastAssistantEmpty && i === messages.length - 1 ? (
+                        <span className="dots">
+                          <span>·</span>
+                          <span>·</span>
+                          <span>·</span>
+                        </span>
+                      ) : (
+                        ''
+                      )}
                     </div>
                   </div>
                 ))}

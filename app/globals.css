@@ -278,6 +278,10 @@ h3,
   text-align: center;
 }
 
+.welcome-inner img {
+  margin: 0 auto;
+}
+
 .welcome-inner h1 {
   font-size: 2rem;
   margin: 20px 0 12px;

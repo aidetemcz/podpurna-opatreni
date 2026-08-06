@@ -340,7 +340,8 @@ h3,
 .wc-name {
   font-family: var(--font-heading);
   font-weight: 600;
-  font-size: 1.12rem;
+  font-size: 0.94rem;
+  color: var(--ink);
 }
 
 .wc-desc {

@@ -129,7 +129,18 @@ export default function Page() {
           ))}
         </nav>
 
-        <div className="sidebar-foot">AI dětem · konverzační prototyp</div>
+        <div className="sidebar-foot">
+          <a href="https://aidetem.cz/" target="_blank" rel="noopener noreferrer" className="foot-brand">
+            AI dětem
+          </a>
+          <p className="foot-note">
+            Konverzační chatboti využívají data{' '}
+            <a href="http://katalogpo.upol.cz/" target="_blank" rel="noopener noreferrer">
+              Katalogu podpůrných opatření
+            </a>{' '}
+            od týmu Pedagogické fakulty Univerzity Palackého v Olomouci.
+          </p>
+        </div>
       </aside>
 
       {navOpen && <div className="scrim" onClick={() => setNavOpen(false)} />}

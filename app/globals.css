@@ -156,11 +156,38 @@ h3,
 }
 
 .sidebar-foot {
-  font-size: 0.72rem;
-  color: var(--muted);
   padding: 16px 12px 4px;
   border-top: 1px solid var(--line-soft);
   margin-top: 8px;
+}
+
+.foot-brand {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.foot-brand:hover {
+  text-decoration: underline;
+}
+
+.foot-note {
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 6px 0 0;
+}
+
+.foot-note a {
+  color: var(--sky-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.foot-note a:hover {
+  color: var(--accent);
 }
 
 /* ---------- Hlavní oblast ---------- */

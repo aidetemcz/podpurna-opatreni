@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { CATEGORIES, getCategory, type CategoryCode } from '@/lib/categories';
+import { Logo } from './Logo';
 
 interface Msg {
   role: 'user' | 'assistant';
@@ -13,6 +14,7 @@ export default function Page() {
   const [messages, setMessages] = useState<Msg[]>([]);
   const [input, setInput] = useState('');
   const [busy, setBusy] = useState(false);
+  const [navOpen, setNavOpen] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const taRef = useRef<HTMLTextAreaElement>(null);
 
@@ -20,10 +22,11 @@ export default function Page() {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' });
   }, [messages, busy]);
 
-  function reset() {
-    setCategory(null);
+  function pickCategory(code: CategoryCode) {
+    setCategory(code);
     setMessages([]);
     setInput('');
+    setNavOpen(false);
   }
 
   async function send() {
@@ -93,98 +96,138 @@ export default function Page() {
     e.target.style.height = Math.min(e.target.scrollHeight, 200) + 'px';
   }
 
-  // ---- Výběr kategorie ----
-  if (!category) {
-    return (
-      <main className="landing">
-        <div className="wrap">
-          <h1>Asistent pro individualizaci výuky</h1>
-          <p className="lead">
-            Pomůže vám individualizovat výuku a materiály pro žáka se speciálními vzdělávacími potřebami na
-            základě Katalogu podpůrných opatření. Nejdřív vyberte, jaké znevýhodnění se u žáka řeší.
-          </p>
-          <div className="grid">
-            {CATEGORIES.map((c) => (
-              <button key={c.code} className="card-btn" onClick={() => setCategory(c.code)}>
-                <div className="name">{c.nazev}</div>
-                <div className="desc">{c.cil}</div>
-              </button>
-            ))}
-          </div>
-        </div>
-      </main>
-    );
-  }
-
-  const cat = getCategory(category);
+  const cat = category ? getCategory(category) : undefined;
   const lastAssistantEmpty =
-    busy && messages.length > 0 && messages[messages.length - 1].role === 'assistant' && messages[messages.length - 1].content === '';
+    busy &&
+    messages.length > 0 &&
+    messages[messages.length - 1].role === 'assistant' &&
+    messages[messages.length - 1].content === '';
 
-  // ---- Chat ----
   return (
-    <main className="chat">
-      <header className="topbar">
-        <div className="wrap">
-          <div className="title">
-            Individualizace výuky
-            <small>Cílová skupina: {cat?.nazev}</small>
+    <div className="app">
+      {/* ---------- Levý panel: skupiny ---------- */}
+      <aside className={`sidebar ${navOpen ? 'open' : ''}`}>
+        <div className="brand">
+          <Logo size={44} />
+          <div className="brand-text">
+            <span className="brand-title">Asistent výuky</span>
+            <span className="brand-sub">Katalog podpůrných opatření</span>
           </div>
-          <button className="linkbtn" onClick={reset}>
-            Změnit skupinu
-          </button>
         </div>
-      </header>
 
-      <div className="messages" ref={scrollRef}>
-        <div className="wrap">
-          {messages.length === 0 && (
-            <div className="hint">
-              Popište žáka a situaci (věk/stupeň, předmět, konkrétní obtíž) — navrhnu konkrétní podpůrná
-              opatření z katalogu a pomůžu připravit materiály. Např.: „Mám žáka v 5. třídě, nezvládá delší
-              samostatnou práci v matematice."
-            </div>
-          )}
-          {messages.map((m, i) => (
-            <div key={i} className={`msg ${m.role}`}>
-              <div className="bubble">
-                {m.content ||
-                  (lastAssistantEmpty && i === messages.length - 1 ? (
-                    <span className="dots">
-                      <span>·</span>
-                      <span>·</span>
-                      <span>·</span>
-                    </span>
-                  ) : (
-                    ''
-                  ))}
+        <div className="nav-label">Skupiny žáků</div>
+        <nav className="nav">
+          {CATEGORIES.map((c) => (
+            <button
+              key={c.code}
+              className={`nav-item ${category === c.code ? 'active' : ''}`}
+              onClick={() => pickCategory(c.code)}
+            >
+              <span className="nav-name">{c.nazev}</span>
+              <span className="nav-desc">{c.cil}</span>
+            </button>
+          ))}
+        </nav>
+
+        <div className="sidebar-foot">AI dětem · konverzační prototyp</div>
+      </aside>
+
+      {navOpen && <div className="scrim" onClick={() => setNavOpen(false)} />}
+
+      {/* ---------- Hlavní oblast ---------- */}
+      <main className="main">
+        <header className="topbar">
+          <button className="menu-btn" aria-label="Skupiny" onClick={() => setNavOpen((o) => !o)}>
+            <span />
+            <span />
+            <span />
+          </button>
+          <div className="topbar-title">
+            {cat ? (
+              <>
+                Individualizace výuky
+                <small>Skupina: {cat.nazev}</small>
+              </>
+            ) : (
+              <>Vyberte skupinu žáků</>
+            )}
+          </div>
+        </header>
+
+        {!category ? (
+          <div className="welcome">
+            <div className="welcome-inner">
+              <Logo size={64} />
+              <h1>Asistent pro individualizaci výuky</h1>
+              <p className="lead">
+                Pomůže vám individualizovat výuku a materiály pro žáka se speciálními vzdělávacími
+                potřebami na základě Katalogu podpůrných opatření. Vlevo vyberte, jaké znevýhodnění se
+                u žáka řeší.
+              </p>
+              <div className="welcome-grid">
+                {CATEGORIES.map((c) => (
+                  <button key={c.code} className="welcome-card" onClick={() => pickCategory(c.code)}>
+                    <span className="wc-name">{c.nazev}</span>
+                    <span className="wc-desc">{c.cil}</span>
+                  </button>
+                ))}
               </div>
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
+        ) : (
+          <>
+            <div className="messages" ref={scrollRef}>
+              <div className="thread">
+                {messages.length === 0 && (
+                  <div className="hint">
+                    Popište žáka a situaci (věk/stupeň, předmět, konkrétní obtíž) — navrhnu konkrétní
+                    podpůrná opatření z katalogu a pomůžu připravit materiály. Např.: „Mám žáka v 5.
+                    třídě, nezvládá delší samostatnou práci v matematice."
+                  </div>
+                )}
+                {messages.map((m, i) => (
+                  <div key={i} className={`msg ${m.role}`}>
+                    <div className="bubble">
+                      {m.content ||
+                        (lastAssistantEmpty && i === messages.length - 1 ? (
+                          <span className="dots">
+                            <span>·</span>
+                            <span>·</span>
+                            <span>·</span>
+                          </span>
+                        ) : (
+                          ''
+                        ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
 
-      <div className="composer">
-        <div className="wrap">
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              void send();
-            }}
-          >
-            <textarea
-              ref={taRef}
-              value={input}
-              onChange={autoGrow}
-              onKeyDown={onKeyDown}
-              placeholder="Napište zprávu… (Enter odešle, Shift+Enter nový řádek)"
-              rows={1}
-            />
-            <button className="send" type="submit" disabled={busy || !input.trim()}>
-              Odeslat
-            </button>
-          </form>
-        </div>
-      </div>
-    </main>
+            <div className="composer">
+              <form
+                className="thread"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  void send();
+                }}
+              >
+                <textarea
+                  ref={taRef}
+                  value={input}
+                  onChange={autoGrow}
+                  onKeyDown={onKeyDown}
+                  placeholder="Napište zprávu… (Enter odešle, Shift+Enter nový řádek)"
+                  rows={1}
+                />
+                <button className="send" type="submit" disabled={busy || !input.trim()}>
+                  Odeslat
+                </button>
+              </form>
+            </div>
+          </>
+        )}
+      </main>
+    </div>
   );
 }

@@ -57,17 +57,17 @@ def build_dilci(kat):
         'oblasti':[oblasti[o] for o in sorted(oblasti)],
     }
 
-def build_vseobecny():
-    meta=KAT_META['vseobecny']
+def build_prose(kat):
+    meta=KAT_META[kat]
     kaps=[]
-    for p in sorted(glob.glob(os.path.join(DATA,'full','vseobecny','*.md'))):
+    for p in sorted(glob.glob(os.path.join(DATA,'full',kat,'*.md'))):
         t=open(p,encoding='utf-8').read()
         m=re.search(r'kapitola:\s*"(.*?)"',t)
         kaps.append({'nazev':m.group(1) if m else os.path.basename(p),
-                     'full':f'data/full/vseobecny/{os.path.basename(p)}'})
-    prep='data/cards/vseobecny/_prehled.md'
+                     'full':f'data/full/{kat}/{os.path.basename(p)}'})
+    prep=f'data/cards/{kat}/_prehled.md'
     return {'nazev':meta['nazev'],'cilova_skupina':meta['cil'],'typ':'obecna',
-            'zdroj':'katalog-vseobecny.pdf',
+            'zdroj':f'katalog-{kat}.pdf',
             'prehled':prep if os.path.exists(os.path.join(ROOT,prep)) else None,
             'kapitoly':kaps}
 
@@ -75,10 +75,12 @@ def build():
     man={'katalog':'Katalog podpůrných opatření (Michalík, Baslerová, Felcmanová a kol.)',
          'generovano':'skripty v ./scripts (PyMuPDF)','katalogy':{}}
     if os.path.isdir(os.path.join(DATA,'full','vseobecny')):
-        man['katalogy']['vseobecny']=build_vseobecny()
+        man['katalogy']['vseobecny']=build_prose('vseobecny')
     for kat in DILCI:
         if os.path.isdir(os.path.join(DATA,'full',kat)):
             man['katalogy'][kat]=build_dilci(kat)
+    if os.path.isdir(os.path.join(DATA,'full','szn-metodika')):
+        man['katalogy']['szn-metodika']=build_prose('szn-metodika')
     return man
 
 def render_index(man):

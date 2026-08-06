@@ -147,6 +147,16 @@ export default function Page() {
             </a>{' '}
             od týmu Pedagogické fakulty Univerzity Palackého v Olomouci.
           </p>
+          <a
+            href="https://www.upol.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="foot-upol"
+            aria-label="Univerzita Palackého v Olomouci"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/upol-logo.png" alt="Univerzita Palackého v Olomouci" />
+          </a>
         </div>
       </aside>
 

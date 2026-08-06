@@ -411,6 +411,8 @@ h3,
 .composer textarea {
   flex: 1;
   resize: none;
+  -webkit-appearance: none;
+  appearance: none;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   padding: 14px 18px;
@@ -421,6 +423,7 @@ h3,
   background: #fff;
   max-height: 200px;
   min-height: 52px;
+  box-shadow: none;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 
@@ -434,6 +437,9 @@ h3,
   background: var(--accent);
   color: #fff;
   border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
   border-radius: 50%;
   width: 52px;
   height: 52px;

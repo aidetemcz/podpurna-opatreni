@@ -29,6 +29,13 @@ export default function Page() {
     setNavOpen(false);
   }
 
+  function goHome() {
+    setCategory(null);
+    setMessages([]);
+    setInput('');
+    setNavOpen(false);
+  }
+
   async function send() {
     const text = input.trim();
     if (!text || busy || !category) return;
@@ -107,13 +114,13 @@ export default function Page() {
     <div className="app">
       {/* ---------- Levý panel: skupiny ---------- */}
       <aside className={`sidebar ${navOpen ? 'open' : ''}`}>
-        <div className="brand">
+        <button className="brand" onClick={goHome} aria-label="Zpět na úvod">
           <Logo size={44} />
           <div className="brand-text">
             <span className="brand-title">Asistent výuky</span>
             <span className="brand-sub">Katalog podpůrných opatření</span>
           </div>
-        </div>
+        </button>
 
         <div className="nav-label">Skupiny žáků</div>
         <nav className="nav">

@@ -214,8 +214,13 @@ npm run dev                  # http://localhost:3000
 |---|---|
 | `ANTHROPIC_API_KEY` | Anthropic API klíč (`sk-ant-…`) — tajné, jen env, nikdy v gitu |
 | `ANTHROPIC_MODEL` | *(volitelné)* výchozí `claude-sonnet-5`; kvalitnější `claude-opus-5` |
+| `FEEDBACK_WEBHOOK_URL` | *(volitelné)* URL Google Apps Script web app pro sběr připomínek |
 
 Framework Preset = **Next.js** (viz `vercel.json`). Po nastavení klíče a pushnutí větve Vercel nasadí náhled automaticky.
+
+### Připomínkování (bez databáze)
+
+Prototyp slouží i k připomínkování fungování chatbotů. V UI jsou dvě tlačítka: **„Odeslat připomínku"** (vpravo nahoře, obecná) a **„Připomínkovat odpověď"** (pod každou odpovědí chatbota — přibalí kontext: skupinu, dotaz učitele a danou odpověď). Připomínka jde na `/api/feedback`, který ji server-to-server přepošle do **Google Sheetu** přes Apps Script web app — žádná databáze. Nastavení krok za krokem: [`docs/pripominky-apps-script.md`](docs/pripominky-apps-script.md).
 
 ---
 

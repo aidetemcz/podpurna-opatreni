@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { CATEGORIES, getCategory, type CategoryCode } from '@/lib/categories';
 import { Logo } from './Logo';
 import { Markdown } from './Markdown';
+import { FeedbackModal, type FeedbackContext } from './Feedback';
 
 interface Msg {
   role: 'user' | 'assistant';
@@ -16,6 +17,7 @@ export default function Page() {
   const [input, setInput] = useState('');
   const [busy, setBusy] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
+  const [feedback, setFeedback] = useState<FeedbackContext | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const taRef = useRef<HTMLTextAreaElement>(null);
 
@@ -181,6 +183,12 @@ export default function Page() {
               <>Vyberte skupinu žáků</>
             )}
           </div>
+          <button
+            className="fb-open"
+            onClick={() => setFeedback({ typ: 'obecná', skupina: cat?.nazev })}
+          >
+            Odeslat připomínku
+          </button>
         </header>
 
         {!category ? (
@@ -214,27 +222,52 @@ export default function Page() {
                     třídě, nezvládá delší samostatnou práci v matematice."
                   </div>
                 )}
-                {messages.map((m, i) => (
-                  <div key={i} className={`msg ${m.role}`}>
-                    <div className="bubble">
-                      {m.content ? (
-                        m.role === 'assistant' ? (
-                          <Markdown>{m.content}</Markdown>
-                        ) : (
-                          m.content
-                        )
-                      ) : lastAssistantEmpty && i === messages.length - 1 ? (
-                        <span className="dots">
-                          <span>·</span>
-                          <span>·</span>
-                          <span>·</span>
-                        </span>
-                      ) : (
-                        ''
-                      )}
+                {messages.map((m, i) => {
+                  const isStreaming = busy && i === messages.length - 1;
+                  const canReview =
+                    m.role === 'assistant' &&
+                    !!m.content &&
+                    !m.content.startsWith('⚠️') &&
+                    !isStreaming;
+                  return (
+                    <div key={i} className={`msg ${m.role}`}>
+                      <div className="msg-col">
+                        <div className="bubble">
+                          {m.content ? (
+                            m.role === 'assistant' ? (
+                              <Markdown>{m.content}</Markdown>
+                            ) : (
+                              m.content
+                            )
+                          ) : lastAssistantEmpty && i === messages.length - 1 ? (
+                            <span className="dots">
+                              <span>·</span>
+                              <span>·</span>
+                              <span>·</span>
+                            </span>
+                          ) : (
+                            ''
+                          )}
+                        </div>
+                        {canReview && (
+                          <button
+                            className="fb-inline"
+                            onClick={() =>
+                              setFeedback({
+                                typ: 'k odpovědi',
+                                skupina: cat?.nazev,
+                                dotaz: messages[i - 1]?.role === 'user' ? messages[i - 1].content : '',
+                                odpoved: m.content,
+                              })
+                            }
+                          >
+                            Připomínkovat odpověď
+                          </button>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
@@ -267,6 +300,8 @@ export default function Page() {
           </>
         )}
       </main>
+
+      {feedback && <FeedbackModal ctx={feedback} onClose={() => setFeedback(null)} />}
     </div>
   );
 }

@@ -796,3 +796,53 @@ Obsah pro agentické dočítání i lidskou orientaci. Dvě vrstvy: **full** (v�
 | 7 | Přílohy | `data/full/szn-metodika/07-prilohy.md` |
 | 8 | Shrnutí | `data/full/szn-metodika/08-shrnuti.md` |
 
+
+## spuch — Specifické poruchy učení a chování
+
+*Cílová skupina:* žáci se specifickými poruchami učení a chování (dyslexie, dysgrafie, dysortografie, dyskalkulie, ADHD/ADD)  
+*Přehled:* `data/cards/spuch/_prehled.md`  
+*Všechny destiláty:* `data/cards/spuch/_all.md`  
+*Pozn.:* prozaická struktura (kapitoly 1–7); destilované karty odpovídají kapitolám podpůrných opatření (kap. 4).
+
+| Kód | Podpůrné opatření (karta) | Card |
+|---|---|---|
+| 4.1 | Individuální vzdělávací plán (IVP) | `data/cards/spuch/4-1-individualni-vzdelavaci-plan.md` |
+| 4.2.1.1 | Metody výuky — dyslexie | `data/cards/spuch/4-2-1-1-metody-vyuky-dyslexie.md` |
+| 4.2.1.2 | Metody výuky — dysgrafie | `data/cards/spuch/4-2-1-2-metody-vyuky-dysgrafie.md` |
+| 4.2.1.3 | Metody výuky — dysortografie | `data/cards/spuch/4-2-1-3-metody-vyuky-dysortografie.md` |
+| 4.2.1.4 | Metody výuky — dyskalkulie | `data/cards/spuch/4-2-1-4-metody-vyuky-dyskalkulie.md` |
+| 4.2.1.5 | Metody výuky — kombinace SPU + efektivní strategie | `data/cards/spuch/4-2-1-5-metody-vyuky-kombinace-spu.md` |
+| 4.2.2.1 | Metody výuky — porucha pozornosti | `data/cards/spuch/4-2-2-1-metody-vyuky-porucha-pozornosti.md` |
+| 4.2.2.2 | Metody výuky — hyperaktivita | `data/cards/spuch/4-2-2-2-metody-vyuky-hyperaktivita.md` |
+| 4.2.2.3 | Metody výuky — impulzivita | `data/cards/spuch/4-2-2-3-metody-vyuky-impulzivita.md` |
+| 4.2.2.4 | Strukturalizace výuky | `data/cards/spuch/4-2-2-4-strukturalizace-vyuky.md` |
+| 4.2.2.5 | Efektivní výukové postupy | `data/cards/spuch/4-2-2-5-efektivni-vyukove-postupy.md` |
+| 4.3 | Organizace výuky | `data/cards/spuch/4-3-organizace-vyuky.md` |
+| 4.4 | Úprava obsahu a očekávaných výstupů | `data/cards/spuch/4-4-uprava-obsahu-a-vystupu-vzdelavani.md` |
+| 4.6 | Předměty speciálněpedagogické péče (reedukace) | `data/cards/spuch/4-6-predmety-specialnepedagogicke-pece-reedukace.md` |
+| 4.7 | Intervence, počet žáků, personální podpora | `data/cards/spuch/4-7-intervence-pocet-zaku-personalni-podpora.md` |
+| 4.10 | Hodnocení | `data/cards/spuch/4-10-hodnoceni.md` |
+| 4.11 | Pomůcky | `data/cards/spuch/4-11-pomucky.md` |
+| 4.12 | Podpůrná opatření jiného druhu | `data/cards/spuch/4-12-podpurna-opatreni-jineho-druhu.md` |
+
+**Plné znění (vrstva 1):**
+
+| # | Kapitola | Full |
+|---|---|---|
+| 1 | Úvod | `data/full/spuch/01-uvod.md` |
+| 2 | Charakteristika daného znevýhodnění | `data/full/spuch/02-charakteristika-znevyhodneni.md` |
+| 3 | Dopady znevýhodnění na vzdělávání | `data/full/spuch/03-dopady-znevyhodneni-na-vzdelavani.md` |
+| 4 | Pedagogická diagnostika SPU a SPCH | `data/full/spuch/04-pedagogicka-diagnostika-spu-a-spch.md` |
+| 5 | PO — Individuální vzdělávací plán | `data/full/spuch/05-po-individualni-vzdelavaci-plan.md` |
+| 6 | PO — Metody výuky | `data/full/spuch/06-po-metody-vyuky.md` |
+| 7 | PO — Organizace výuky | `data/full/spuch/07-po-organizace-vyuky.md` |
+| 8 | PO — Úprava obsahu a výstupů vzdělávání | `data/full/spuch/08-po-uprava-obsahu-a-vystupu-vzdelavani.md` |
+| 9 | PO — Předměty speciálněpedagogické péče | `data/full/spuch/09-po-predmety-specialnepedagogicke-pece.md` |
+| 10 | PO — Intervence, počet žáků, personální podpora | `data/full/spuch/10-po-intervence-pocet-zaku-personalni-podpora.md` |
+| 11 | PO — Hodnocení | `data/full/spuch/11-po-hodnoceni.md` |
+| 12 | PO — Pomůcky | `data/full/spuch/12-po-pomucky.md` |
+| 13 | PO — Podpůrná opatření jiného druhu | `data/full/spuch/13-po-podpurna-opatreni-jineho-druhu.md` |
+| 14 | Slovník odborných pojmů | `data/full/spuch/14-slovnik-odbornych-pojmu.md` |
+| 15 | Užitečné odkazy | `data/full/spuch/15-uzitecne-odkazy.md` |
+| 16 | Seznam použité literatury | `data/full/spuch/16-seznam-pouzite-literatury.md` |
+

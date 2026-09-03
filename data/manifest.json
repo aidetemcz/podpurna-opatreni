@@ -3993,6 +3993,126 @@
      "full": "data/full/szn-metodika/08-shrnuti.md"
     }
    ]
+  },
+  "spuch": {
+   "nazev": "Specifické poruchy učení a chování",
+   "cilova_skupina": "žáci se specifickými poruchami učení a chování (dyslexie, dysgrafie, dysortografie, dyskalkulie, ADHD/ADD)",
+   "typ": "dilci",
+   "zdroj": "KPO_cast_SPUCH.pdf",
+   "poznamka": "Prozaická struktura (kapitoly 1–7), ne oblasti/karty PO. Destilované karty odpovídají kapitolám podpůrných opatření (kap. 4).",
+   "prehled": "data/cards/spuch/_prehled.md",
+   "all": "data/cards/spuch/_all.md",
+   "pocet_karet": 18,
+   "kapitoly_full": [
+    "data/full/spuch/01-uvod.md",
+    "data/full/spuch/02-charakteristika-znevyhodneni.md",
+    "data/full/spuch/03-dopady-znevyhodneni-na-vzdelavani.md",
+    "data/full/spuch/04-pedagogicka-diagnostika-spu-a-spch.md",
+    "data/full/spuch/05-po-individualni-vzdelavaci-plan.md",
+    "data/full/spuch/06-po-metody-vyuky.md",
+    "data/full/spuch/07-po-organizace-vyuky.md",
+    "data/full/spuch/08-po-uprava-obsahu-a-vystupu-vzdelavani.md",
+    "data/full/spuch/09-po-predmety-specialnepedagogicke-pece.md",
+    "data/full/spuch/10-po-intervence-pocet-zaku-personalni-podpora.md",
+    "data/full/spuch/11-po-hodnoceni.md",
+    "data/full/spuch/12-po-pomucky.md",
+    "data/full/spuch/13-po-podpurna-opatreni-jineho-druhu.md",
+    "data/full/spuch/14-slovnik-odbornych-pojmu.md",
+    "data/full/spuch/15-uzitecne-odkazy.md",
+    "data/full/spuch/16-seznam-pouzite-literatury.md"
+   ],
+   "karty": [
+    {
+     "kod": "4.1",
+     "nazev": "Individuální vzdělávací plán (IVP)",
+     "card": "data/cards/spuch/4-1-individualni-vzdelavaci-plan.md"
+    },
+    {
+     "kod": "4.2.1.1",
+     "nazev": "Metody výuky — dyslexie",
+     "card": "data/cards/spuch/4-2-1-1-metody-vyuky-dyslexie.md"
+    },
+    {
+     "kod": "4.2.1.2",
+     "nazev": "Metody výuky — dysgrafie",
+     "card": "data/cards/spuch/4-2-1-2-metody-vyuky-dysgrafie.md"
+    },
+    {
+     "kod": "4.2.1.3",
+     "nazev": "Metody výuky — dysortografie",
+     "card": "data/cards/spuch/4-2-1-3-metody-vyuky-dysortografie.md"
+    },
+    {
+     "kod": "4.2.1.4",
+     "nazev": "Metody výuky — dyskalkulie",
+     "card": "data/cards/spuch/4-2-1-4-metody-vyuky-dyskalkulie.md"
+    },
+    {
+     "kod": "4.2.1.5",
+     "nazev": "Metody výuky — kombinace SPU a efektivní strategie učení",
+     "card": "data/cards/spuch/4-2-1-5-metody-vyuky-kombinace-spu.md"
+    },
+    {
+     "kod": "4.2.2.1",
+     "nazev": "Metody výuky — porucha pozornosti",
+     "card": "data/cards/spuch/4-2-2-1-metody-vyuky-porucha-pozornosti.md"
+    },
+    {
+     "kod": "4.2.2.2",
+     "nazev": "Metody výuky — hyperaktivita",
+     "card": "data/cards/spuch/4-2-2-2-metody-vyuky-hyperaktivita.md"
+    },
+    {
+     "kod": "4.2.2.3",
+     "nazev": "Metody výuky — impulzivita",
+     "card": "data/cards/spuch/4-2-2-3-metody-vyuky-impulzivita.md"
+    },
+    {
+     "kod": "4.2.2.4",
+     "nazev": "Strukturalizace výuky",
+     "card": "data/cards/spuch/4-2-2-4-strukturalizace-vyuky.md"
+    },
+    {
+     "kod": "4.2.2.5",
+     "nazev": "Efektivní výukové postupy",
+     "card": "data/cards/spuch/4-2-2-5-efektivni-vyukove-postupy.md"
+    },
+    {
+     "kod": "4.3",
+     "nazev": "Organizace výuky",
+     "card": "data/cards/spuch/4-3-organizace-vyuky.md"
+    },
+    {
+     "kod": "4.4",
+     "nazev": "Úprava obsahu a očekávaných výstupů vzdělávání",
+     "card": "data/cards/spuch/4-4-uprava-obsahu-a-vystupu-vzdelavani.md"
+    },
+    {
+     "kod": "4.6",
+     "nazev": "Předměty speciálněpedagogické péče (reedukace)",
+     "card": "data/cards/spuch/4-6-predmety-specialnepedagogicke-pece-reedukace.md"
+    },
+    {
+     "kod": "4.7",
+     "nazev": "Pedagogická intervence, snížený počet žáků, personální podpora",
+     "card": "data/cards/spuch/4-7-intervence-pocet-zaku-personalni-podpora.md"
+    },
+    {
+     "kod": "4.10",
+     "nazev": "Hodnocení žáků se SPU a SPCH",
+     "card": "data/cards/spuch/4-10-hodnoceni.md"
+    },
+    {
+     "kod": "4.11",
+     "nazev": "Pomůcky",
+     "card": "data/cards/spuch/4-11-pomucky.md"
+    },
+    {
+     "kod": "4.12",
+     "nazev": "Podpůrná opatření jiného druhu (práce s třídním kolektivem)",
+     "card": "data/cards/spuch/4-12-podpurna-opatreni-jineho-druhu.md"
+    }
+   ]
   }
  }
 }

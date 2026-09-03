@@ -1,5 +1,5 @@
 // Dílčí katalogy podpůrných opatření — cílové skupiny žáků se SVP.
-export type CategoryCode = 'pas' | 'mp' | 'nks' | 'sp' | 'zp' | 'tp' | 'szn';
+export type CategoryCode = 'pas' | 'mp' | 'nks' | 'sp' | 'zp' | 'tp' | 'szn' | 'spuch';
 
 export interface Category {
   code: CategoryCode;
@@ -15,6 +15,7 @@ export const CATEGORIES: Category[] = [
   { code: 'zp', nazev: 'Zrakové postižení', cil: 'zrakové postižení nebo oslabení zrakového vnímání' },
   { code: 'tp', nazev: 'Tělesné postižení', cil: 'tělesné postižení nebo závažné onemocnění' },
   { code: 'szn', nazev: 'Sociální znevýhodnění', cil: 'sociální znevýhodnění' },
+  { code: 'spuch', nazev: 'Specifické poruchy učení a chování', cil: 'specifické poruchy učení a chování (dyslexie, dysgrafie, dysortografie, dyskalkulie, ADHD/ADD)' },
 ];
 
 export function isCategoryCode(x: unknown): x is CategoryCode {

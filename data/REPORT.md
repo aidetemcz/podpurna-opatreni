@@ -26,9 +26,12 @@ Odhad tokenů = znaky ÷ 2,5 (konzervativní pro češtinu; skutečnost bývá n
 | pas | 10 | 45 | ~171 000 | ~14 900 |
 | szn | 10 | 77 | ~275 000 | ~24 300 |
 | szn-metodika | 8 kapitol | — | ~121 000 | — (jen `_prehled.md`) |
-| **Celkem** | | **370 karet** | | |
+| spuch | 16 kapitol / 12 kap. PO | 18 | ~236 000 | ~10 900 |
+| **Celkem** | | **388 karet** | | |
 
 *(mp nemá oblast č. 8 — v předloze k ní nejsou karty.)*
+
+*(spuch — dílčí část specifické poruchy učení a chování /Jucovičová, Žáčková, 2020/ — má **odlišnou, prozaickou strukturu** než ostatní dílčí katalogy: nemá oblasti podpory ani standardizované karty PO, nýbrž kapitoly 1–7. Vrstva 1 je členěná na 16 souborů podle tištěného obsahu; destilované „karty" (18) odpovídají kapitolám podpůrných opatření 4.1–4.12. Extrakce vlastním skriptem `scripts/build_spuch.py`, destilace ručně ze plných kapitol.)*
 
 ## Kontrola kvality
 

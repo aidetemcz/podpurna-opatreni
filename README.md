@@ -124,6 +124,8 @@ Klíčové soubory:
 | `app/api/chat/route.ts` | Node runtime, streamované volání Claude (`messages.stream`), text/plain stream |
 | `app/page.tsx` | Levý panel skupin + chat (client), renderování odpovědí přes Markdown |
 
+> **Pro LLM inženýry:** detailní rozbor runtime toku (žádný agent, žádné RAG — deterministické vložení destilátu do promptu), tokenové rozpočty a varianty pro Tiny (RAG / hybrid / úprava dat) jsou v [`docs/llm-a-data.md`](docs/llm-a-data.md).
+
 ### Agentické dočítání *(fáze 2, připravené v datech, zatím nenasazené)*
 
 Model dostane do promptu rejstřík (`index.md` / výtah z `manifest.json`) a tool `get_card(katalog, kod)`, který vrátí plnou kartu z `data/full/`. Použije se, když destilát nestačí a je potřeba detail. Data i cesty jsou na to připravené; zbývá doplnit tool-use smyčku v route handleru a indikaci v UI.

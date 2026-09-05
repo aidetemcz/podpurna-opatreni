@@ -15,7 +15,7 @@ export const CATEGORIES: Category[] = [
   { code: 'zp', nazev: 'Zrakové postižení', cil: 'zrakové postižení nebo oslabení zrakového vnímání' },
   { code: 'tp', nazev: 'Tělesné postižení', cil: 'tělesné postižení nebo závažné onemocnění' },
   { code: 'szn', nazev: 'Sociální znevýhodnění', cil: 'sociální znevýhodnění' },
-  { code: 'spuch', nazev: 'Specifické poruchy učení a chování', cil: 'specifické poruchy učení a chování (dyslexie, dysgrafie, dysortografie, dyskalkulie, ADHD/ADD)' },
+  { code: 'spuch', nazev: 'Specifické poruchy učení a chování', cil: 'dyslexie, dysgrafie, dysortografie, dyskalkulie · poruchy pozornosti a chování (ADHD/ADD)' },
 ];
 
 export function isCategoryCode(x: unknown): x is CategoryCode {

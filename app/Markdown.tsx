@@ -1,8 +1,10 @@
+import { memo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 // Renderuje odpověď asistenta jako Markdown (nadpisy, seznamy, kód, tabulky…).
-export function Markdown({ children }: { children: string }) {
+// memo: při streamování se nerenderují starší zprávy (jejich `children` se nemění).
+export const Markdown = memo(function Markdown({ children }: { children: string }) {
   return (
     <div className="md">
       <ReactMarkdown
@@ -15,4 +17,4 @@ export function Markdown({ children }: { children: string }) {
       </ReactMarkdown>
     </div>
   );
-}
+});

@@ -18,18 +18,44 @@ export default function Page() {
   const [busy, setBusy] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
   const [feedback, setFeedback] = useState<FeedbackContext | null>(null);
+  const [showJump, setShowJump] = useState(false);
+  const [copiedIdx, setCopiedIdx] = useState<number | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const taRef = useRef<HTMLTextAreaElement>(null);
+  // Autoscroll jen když je uživatel „přilepený" u spodku.
+  const stickRef = useRef(true);
 
+  // Autoscroll na konec při přibývání textu — jen když je zapnuté přilepení.
+  // Během streamování používáme behavior 'auto' (smooth by desítkykrát za vteřinu cukalo).
   useEffect(() => {
-    scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' });
+    if (!stickRef.current) return;
+    const el = scrollRef.current;
+    el?.scrollTo({ top: el.scrollHeight });
   }, [messages, busy]);
+
+  function onMessagesScroll() {
+    const el = scrollRef.current;
+    if (!el) return;
+    const dist = el.scrollHeight - el.scrollTop - el.clientHeight;
+    const atBottom = dist < 80;
+    stickRef.current = atBottom;
+    setShowJump(!atBottom);
+  }
+
+  function jumpToBottom() {
+    stickRef.current = true;
+    setShowJump(false);
+    const el = scrollRef.current;
+    el?.scrollTo({ top: el.scrollHeight, behavior: 'smooth' });
+  }
 
   function pickCategory(code: CategoryCode) {
     setCategory(code);
     setMessages([]);
     setInput('');
     setNavOpen(false);
+    stickRef.current = true;
+    setShowJump(false);
   }
 
   function goHome() {
@@ -47,6 +73,9 @@ export default function Page() {
     setMessages(next);
     setInput('');
     setBusy(true);
+    // Po odeslání chce uživatel být dole.
+    stickRef.current = true;
+    setShowJump(false);
     if (taRef.current) taRef.current.style.height = 'auto';
 
     // Prázdná odpověď asistenta, do které streamujeme.
@@ -72,16 +101,24 @@ export default function Page() {
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let acc = '';
-      for (;;) {
-        const { value, done } = await reader.read();
-        if (done) break;
-        acc += decoder.decode(value, { stream: true });
+      let raf = 0;
+      const flush = () => {
+        raf = 0;
         setMessages((m) => {
           const copy = [...m];
           copy[copy.length - 1] = { role: 'assistant', content: acc };
           return copy;
         });
+      };
+      for (;;) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        acc += decoder.decode(value, { stream: true });
+        // Stav aktualizuj max. jednou za snímek — plynulejší vykreslování.
+        if (!raf) raf = requestAnimationFrame(flush);
       }
+      if (raf) cancelAnimationFrame(raf);
+      flush(); // finální flush, ať se neztratí konec textu
     } catch {
       setMessages((m) => {
         const copy = [...m];
@@ -91,6 +128,48 @@ export default function Page() {
     } finally {
       setBusy(false);
     }
+  }
+
+  async function copyMessage(i: number, content: string) {
+    const md = document.getElementById(`msg-${i}`)?.querySelector('.md');
+    const html = md?.innerHTML ?? '';
+    try {
+      const clip = navigator.clipboard;
+      if (clip && typeof window.ClipboardItem === 'function' && html) {
+        await clip.write([
+          new ClipboardItem({
+            'text/plain': new Blob([content], { type: 'text/plain' }),
+            'text/html': new Blob([html], { type: 'text/html' }),
+          }),
+        ]);
+      } else {
+        await navigator.clipboard.writeText(content);
+      }
+      setCopiedIdx(i);
+      setTimeout(() => setCopiedIdx((c) => (c === i ? null : c)), 1600);
+    } catch {
+      try {
+        await navigator.clipboard.writeText(content);
+        setCopiedIdx(i);
+        setTimeout(() => setCopiedIdx((c) => (c === i ? null : c)), 1600);
+      } catch {
+        /* schránka není dostupná */
+      }
+    }
+  }
+
+  function printMessage(i: number) {
+    const el = document.getElementById(`msg-${i}`);
+    if (!el) return;
+    el.classList.add('printing');
+    document.body.setAttribute('data-printing', '1');
+    const cleanup = () => {
+      el.classList.remove('printing');
+      document.body.removeAttribute('data-printing');
+      window.removeEventListener('afterprint', cleanup);
+    };
+    window.addEventListener('afterprint', cleanup);
+    window.print();
   }
 
   function onKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
@@ -213,13 +292,19 @@ export default function Page() {
           </div>
         ) : (
           <>
-            <div className="messages" ref={scrollRef}>
+            <div className="messages" ref={scrollRef} onScroll={onMessagesScroll}>
               <div className="thread">
                 {messages.length === 0 && (
                   <div className="hint">
                     Popište žáka a situaci (věk/stupeň, předmět, konkrétní obtíž) — navrhnu konkrétní
                     podpůrná opatření z katalogu a pomůžu připravit materiály. Např.: „Mám žáka v 5.
                     třídě, nezvládá delší samostatnou práci v matematice."
+                    <br />
+                    <span className="hint-sub">
+                      Asistent vytváří textové materiály (pracovní listy, kartičky, archy), které si
+                      můžete uložit jako PDF nebo zkopírovat do Wordu. Obrázky negeneruje — popíše, co
+                      doplnit.
+                    </span>
                   </div>
                 )}
                 {messages.map((m, i) => {
@@ -230,7 +315,7 @@ export default function Page() {
                     !m.content.startsWith('⚠️') &&
                     !isStreaming;
                   return (
-                    <div key={i} className={`msg ${m.role}`}>
+                    <div key={i} id={`msg-${i}`} className={`msg ${m.role}`}>
                       <div className="msg-col">
                         <div className="bubble">
                           {m.content ? (
@@ -250,19 +335,27 @@ export default function Page() {
                           )}
                         </div>
                         {canReview && (
-                          <button
-                            className="fb-inline"
-                            onClick={() =>
-                              setFeedback({
-                                typ: 'k odpovědi',
-                                skupina: cat?.nazev,
-                                dotaz: messages[i - 1]?.role === 'user' ? messages[i - 1].content : '',
-                                odpoved: m.content,
-                              })
-                            }
-                          >
-                            Připomínkovat odpověď
-                          </button>
+                          <div className="msg-actions">
+                            <button className="fb-inline" onClick={() => copyMessage(i, m.content)}>
+                              {copiedIdx === i ? 'Zkopírováno ✓' : 'Kopírovat'}
+                            </button>
+                            <button className="fb-inline" onClick={() => printMessage(i)}>
+                              Uložit jako PDF
+                            </button>
+                            <button
+                              className="fb-inline"
+                              onClick={() =>
+                                setFeedback({
+                                  typ: 'k odpovědi',
+                                  skupina: cat?.nazev,
+                                  dotaz: messages[i - 1]?.role === 'user' ? messages[i - 1].content : '',
+                                  odpoved: m.content,
+                                })
+                              }
+                            >
+                              Připomínkovat odpověď
+                            </button>
+                          </div>
                         )}
                       </div>
                     </div>
@@ -270,6 +363,12 @@ export default function Page() {
                 })}
               </div>
             </div>
+
+            {showJump && (
+              <button className="jump-btn" onClick={jumpToBottom} aria-label="Přejít na konec odpovědi">
+                ↓ Přejít na konec
+              </button>
+            )}
 
             <div className="composer">
               <form

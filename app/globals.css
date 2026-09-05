@@ -226,6 +226,7 @@ h3,
   display: flex;
   flex-direction: column;
   height: 100dvh;
+  position: relative;
 }
 
 .thread {
@@ -396,6 +397,13 @@ h3,
   border-radius: var(--radius);
   padding: 16px 18px;
   margin-bottom: 20px;
+}
+
+.hint-sub {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.86rem;
 }
 
 /* ---------- Markdown v odpovědích ---------- */
@@ -623,9 +631,15 @@ h3,
   max-width: 100%;
 }
 
-.fb-inline {
+.msg-actions {
   align-self: flex-start;
   margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+}
+
+.fb-inline {
   background: none;
   border: none;
   padding: 2px 4px;
@@ -640,6 +654,31 @@ h3,
 .fb-inline:hover {
   color: var(--accent);
   text-decoration: underline;
+}
+
+/* Plovoucí tlačítko „přejít na konec" při odscrolování během streamování. */
+.jump-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 96px;
+  z-index: 15;
+  background: #fff;
+  color: var(--accent);
+  border: 1px solid var(--line);
+  border-radius: var(--pill);
+  padding: 8px 16px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(28, 37, 48, 0.14);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.jump-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent-hover);
 }
 
 /* ---------- Modální okno připomínky ---------- */
@@ -872,5 +911,127 @@ h3,
 
   .welcome {
     padding: 6vh 20px 40px;
+  }
+}
+
+/* ---------- Tisk / Uložit jako PDF (jen jedna odpověď) ---------- */
+@media print {
+  @page {
+    size: A4;
+    margin: 2cm;
+  }
+
+  /* Tisknout jen zprávu s třídou .printing (nastaveno tlačítkem „Uložit jako PDF"). */
+  body[data-printing] {
+    background: #fff;
+  }
+
+  body[data-printing] .sidebar,
+  body[data-printing] .scrim,
+  body[data-printing] .topbar,
+  body[data-printing] .composer,
+  body[data-printing] .jump-btn,
+  body[data-printing] .msg-actions,
+  body[data-printing] .fb-overlay {
+    display: none !important;
+  }
+
+  body[data-printing] .app,
+  body[data-printing] .main,
+  body[data-printing] .messages,
+  body[data-printing] .thread {
+    display: block !important;
+    height: auto !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: static !important;
+  }
+
+  body[data-printing] .msg {
+    display: none !important;
+  }
+
+  body[data-printing] .msg.printing {
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  body[data-printing] .msg.printing .msg-col {
+    max-width: 100% !important;
+  }
+
+  body[data-printing] .msg.printing .msg-col::before {
+    content: "Vytvořeno v Asistentu pro individualizaci výuky (AI dětem) · Katalog podpůrných opatření, UP Olomouc";
+    display: block;
+    font-size: 8pt;
+    color: #666;
+    margin-bottom: 12pt;
+    padding-bottom: 6pt;
+    border-bottom: 1px solid #ccc;
+  }
+
+  body[data-printing] .msg.printing .bubble {
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    color: #000 !important;
+  }
+
+  /* Tisková typografie */
+  body[data-printing] .md {
+    font-size: 11.5pt;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  body[data-printing] .md h1 { font-size: 16pt; }
+  body[data-printing] .md h2 { font-size: 13.5pt; }
+  body[data-printing] .md h3 { font-size: 12pt; }
+
+  body[data-printing] .md h1,
+  body[data-printing] .md h2,
+  body[data-printing] .md h3,
+  body[data-printing] .md h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  body[data-printing] .md li,
+  body[data-printing] .md tr {
+    page-break-inside: avoid;
+  }
+
+  body[data-printing] .md table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  body[data-printing] .md table,
+  body[data-printing] .md th,
+  body[data-printing] .md td {
+    border: 1px solid #000 !important;
+  }
+
+  body[data-printing] .md th {
+    background: none !important;
+  }
+
+  body[data-printing] .md a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  body[data-printing] .md pre {
+    border: 1px solid #000;
+    background: none !important;
+    white-space: pre-wrap;
+  }
+
+  body[data-printing] .md code {
+    background: none !important;
   }
 }

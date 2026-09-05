@@ -181,9 +181,12 @@ Pro každou připomínku doporučuji projít:
 ## 7. Stav a plánované fáze (pomáhá triáži „bug vs. nápad“)
 
 - **Hotovo:** výběr skupiny, destilát v system promptu, streamovaný chat, branding (bílé pozadí, akcent #DC5B5B, fonty Space Grotesk/Inter, logo AI dětem), render Markdownu, připomínkování do Google Sheetu, 8 cílových skupin včetně nově doplněného SPUCH.
+- **Provedené úpravy — 1. kolo připomínek:**
+  - prompt: kód+název opatření jen při prvním výskytu (méně opakování), neuvádět katalog jako zdroj v každé odpovědi, žádné šablonovité závěrečné nabídky (záznamový arch apod.), vykání a čtivější jazyk (pokyny žákovi jako přímá řeč), explicitní zákaz rozporovat Doporučení ŠPZ, oddělení hotového materiálu od komentáře a psaní materiálů pro tisk (tabulky místo ASCII rámečků);
+  - UI: chytrý autoscroll (neskáče, když čtu odscrolované) + tlačítko „Přejít na konec", plynulejší streamování, pod odpovědí tlačítka **Kopírovat** (do Wordu/Docs bez rozsypání) a **Uložit jako PDF** (tisk jedné odpovědi s čistou typografií), v popisu skupiny SPUCH zviditelněny poruchy chování (ADHD/ADD), nápověda o tom, co asistent umí/neumí.
 - **Fáze 2 (plán):** agentické dočítání — model dostane rejstřík (`index.md`/`manifest.json`) a nástroj `get_card`, kterým si vyžádá plné znění karty z `data/full/`. Řeší připomínky typu „chybí detail, který v plné kartě je“.
-- **Fáze 3 (plán):** profil žáka (stupeň, předmět), export materiálů, více žáků / uložení.
-- **Známá omezení:** práce po jedné skupině (souběh znevýhodnění neřešen), destiláty SPUCH jsou nové a chtějí odbornou kontrolu, appka nese jen destilát (ne plný detail karty).
+- **Fáze 3 / roadmap (plán):** profil žáka (stupeň, předmět), export materiálů **do .docx**, **generování/vkládání obrázků** do materiálů, samostatné pokrytí **poruch chování nad rámec ADHD/ADD** (opoziční vzdor, poruchy chování — datové omezení Katalogu, vyžaduje odbornou revizi obsahu), více žáků / uložení.
+- **Známá omezení:** práce po jedné skupině (souběh znevýhodnění neřešen), destiláty SPUCH jsou nové a chtějí odbornou kontrolu, appka nese jen destilát (ne plný detail karty), materiály jsou zatím jen textové (bez obrázků; PDF/kopírování řeší přenos do Wordu).
 
 ---
 

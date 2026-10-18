@@ -1,6 +1,6 @@
 # REPORT — převod Katalogu podpůrných opatření do Markdownu
 
-Stav: **kompletní** — všech 9 katalogů (obecná část, 7 dílčích, metodika k SZN) + 2 samostatné metodiky (SPUCH, vzácná onemocnění) převedeno do dvou vrstev. Navíc průřezový **legislativní rámec** (školský zákon) jako vždy vkládaný blok promptu.
+Stav: **kompletní** — všech 9 katalogů (obecná část, 7 dílčích, metodika k SZN) + 2 samostatné metodiky (SPUCH, vzácná onemocnění) převedeno do dvou vrstev. Navíc průřezový **legislativní rámec** (školský zákon + vyhláška 27/2016 Sb.) jako vždy vkládaný blok promptu.
 
 ## Metodika
 
@@ -28,7 +28,7 @@ Odhad tokenů = znaky ÷ 2,5 (konzervativní pro češtinu; skutečnost bývá n
 | szn-metodika | 8 kapitol | — | ~121 000 | — (jen `_prehled.md`) |
 | spuch | 16 kapitol / 12 kap. PO | 18 | ~236 000 | ~10 900 |
 | vzo | 15 kapitol (9 onemocnění) | 11 | ~233 000 | ~8 400 |
-| legislativa | 2 části (školský zákon) | 5 | — | ~2 000 (`_ramec.md`) |
+| legislativa | 3 části (školský zákon + vyhláška 27/2016) | 5 | — | ~2 500 (`_ramec.md`) |
 | **Celkem** | | **399 karet opatření + 5 karet legislativního rámce** | | |
 
 *(mp nemá oblast č. 8 — v předloze k ní nejsou karty.)*
@@ -37,7 +37,7 @@ Odhad tokenů = znaky ÷ 2,5 (konzervativní pro češtinu; skutečnost bývá n
 
 *(vzo — **samostatná Metodika práce se žákem se vzácným onemocněním** /Michalík a kol., 2012/, NENÍ dílčí katalog KPO. Prozaická struktura (kapitoly 1–13 + úvod/závěr), vrstva 1 v 15 souborech; destilované karty (11) = profil komunikace + 9 konkrétních onemocnění (cystická fibróza, galaktosemie, MPS, fenylketonurie, Prader-Williho, Rettův, SMA, Touretteův, Williamsův syndrom) + vzdálená výuka. Extrakce vlastním skriptem `scripts/build_vzo.py`, destilace ručně z plných kapitol. **Starší zdroj (2012)** — legislativní odkazy je nutné ověřit podle aktuálních předpisů; vhodná odborná revize před ostrým nasazením.)*
 
-*(legislativa — **průřezový legislativní rámec**, ne cílová skupina. Vrstva 1 = věrný přepis vybraných paragrafů školského zákona (č. 561/2004 Sb., úplné znění k 1. 9. 2025, které už zahrnuje odkladovou novelu z května 2025): § 16, 16a, 16b, 17, 18, 19 (SVP) a § 37 (odklad). Vrstva 2 = destilát `_ramec.md`, který se vkládá do system promptu pro **všechny** cílové skupiny (ne volitelná kategorie v UI), + 5 tematických karet (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga, odklad). Reaguje na připomínku, že chatbot „plácal" v personální podpoře a domýšlel si právní fakta (např. že SPC může dát asistentovi pedagoga úvazek nad 40 h) — rámec tuto představu výslovně vyvrací. **Konkrétní čísla** (rozsah AP, zařazení do stupňů, normovaná finanční náročnost, náležitosti IVP) stanoví **vyhláška č. 27/2016 Sb.**, jejíž plný text zatím není stažen — prompt proto chatbotu zakazuje čísla domýšlet a odkazuje na vyhlášku a ŠPZ. Odborná revize před ostrým nasazením doporučena.)*
+*(legislativa — **průřezový legislativní rámec**, ne cílová skupina. Vrstva 1 = věrný přepis vybraných paragrafů školského zákona (č. 561/2004 Sb., úplné znění k 1. 9. 2025, které už zahrnuje odkladovou novelu z května 2025): § 16, 16a, 16b, 17, 18, 19 (SVP) a § 37 (odklad). Vrstva 2 = destilát `_ramec.md`, který se vkládá do system promptu pro **všechny** cílové skupiny (ne volitelná kategorie v UI), + 5 tematických karet (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga, odklad). Reaguje na připomínku, že chatbot „plácal" v personální podpoře a domýšlel si právní fakta (např. že SPC může dát asistentovi pedagoga úvazek nad 40 h) — rámec tuto představu výslovně vyvrací. Kromě školského zákona je zapracována i **vyhláška č. 27/2016 Sb.** (znění k 1. 9. 2026, §§ 2–5, 15–17), předaná jako Google dokument: obsahuje mj. **přesný limit asistenta pedagoga — nejvýše v průměru 36 h přímé pedagogické činnosti týdně na 1 třídu** (§ 5 odst. 7), platnost doporučení (2, resp. až 4 roky) a náležitosti IVP. **Úplný výčet opatření a jejich zařazení do stupňů** (příloha č. 1 vyhlášky — rozsáhlá tabulka) je jen popsán, ne přepsán; prompt proto chatbotu zakazuje domýšlet čísla, která v rámci nejsou, a odkazuje na vyhlášku a ŠPZ. Odborná revize před ostrým nasazením doporučena.)*
 
 ## Kontrola kvality
 

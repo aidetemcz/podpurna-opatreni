@@ -76,14 +76,14 @@ Data vznikla převodem 9 PDF Katalogu do Markdownu, ve dvou vrstvách (`data/`):
 
 Další dva katalogy (`vseobecny` — obecná část/metodika, `szn-metodika`) jsou v datech jako podklad, ale **nejsou to cílové skupiny v appce** (nemají chatbota).
 
-**Legislativní rámec (`data/cards/legislativa/`)** je **průřezový** — vkládá se do promptu pro **všechny** skupiny (ne volitelná kategorie). Destilát `_ramec.md` + 5 tematických karet (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga, odklad) vychází ze školského zákona (č. 561/2004 Sb., úplné znění k 1. 9. 2025 vč. odkladové novely); věrný přepis je v `data/full/legislativa/`. Reaguje na připomínku, že chatbot „plácal“ v personální podpoře a domýšlel si právo (např. že SPC dá asistentovi úvazek nad 40 h). Prompt má pravidlo: **právní fakta nedomýšlet**; konkrétní čísla stanoví vyhláška č. 27/2016 Sb. (její plný text zatím není v datech).
+**Legislativní rámec (`data/cards/legislativa/`)** je **průřezový** — vkládá se do promptu pro **všechny** skupiny (ne volitelná kategorie). Destilát `_ramec.md` + 5 tematických karet (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga, odklad) vychází ze **školského zákona** (č. 561/2004 Sb., úplné znění k 1. 9. 2025 vč. odkladové novely) a z **vyhlášky č. 27/2016 Sb.** (znění k 1. 9. 2026); věrný přepis je v `data/full/legislativa/`. Reaguje na připomínku, že chatbot „plácal“ v personální podpoře a domýšlel si právo (např. že SPC dá asistentovi úvazek nad 40 h). Prompt má pravidlo: **právní fakta nedomýšlet**. Vyhláška dodala i přesné číslo — asistent pedagoga nejvýše v průměru **36 h přímé ped. činnosti týdně na 1 třídu** (§ 5). Jen úplnou tabulku opatření/stupňů (příloha č. 1 vyhlášky) rámec nereprodukuje — na ni chatbot odkazuje.
 
 **Celkem 399 destilovaných karet opatření + 5 karet legislativního rámce.** Rejstřík: `data/index.md` (pro lidi) a `data/manifest.json` (strojově). Protokol o převodu a kontrole kvality: `data/REPORT.md`.
 
 **Na co u připomínek myslet ohledně dat:**
 - `spuch` a `vzo` mají **odlišnou, prozaickou strukturu** (kapitoly, ne standardizované karty PO) a jejich destiláty jsou nové — vyšší šance na potřebu odborné revize; `vzo` navíc vychází ze **staršího zdroje (2012)**, legislativu je u něj nutné brát z průřezového rámce / aktuálních předpisů.
 - ADHD/poruchy pozornosti se v katalogu objevují **napříč** (hlavně `spuch` a `pas`, karta „2.8 Prevence únavy a podpora koncentrace pozornosti“ i v ostatních dílech). Katalog i appka pracují **po jedné skupině** — souběh více znevýhodnění není nativně pokrytý.
-- **Legislativní dotazy** (asistent pedagoga, stupně PO, odklad, IVP) jsou nově podloženy průřezovým rámcem, ale konkrétní čísla z vyhlášky 27/2016 v datech zatím nejsou — chatbot na ně odkazuje, nedomýšlí je.
+- **Legislativní dotazy** (asistent pedagoga, stupně PO, odklad, IVP) jsou nově podloženy průřezovým rámcem ze školského zákona i vyhlášky 27/2016 (vč. limitu 36 h AP). Úplná tabulka opatření a stupňů (příloha č. 1 vyhlášky) v datech přepsaná není — na ni chatbot odkazuje, nedomýšlí ji.
 
 ---
 

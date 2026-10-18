@@ -7,10 +7,11 @@ zdroj: "Zákon č. 561/2004 Sb. (školský zákon, úplné znění k 1. 9. 2025)
 
 # Legislativní rámec (orientační)
 
-> Orientační shrnutí, ne právní výklad. Čerpá ze školského zákona (č. 561/2004 Sb.,
-> úplné znění k 1. 9. 2025, které už zahrnuje odkladovou novelu z května 2025)
-> a odkazuje na prováděcí vyhlášku č. 27/2016 Sb. Konkrétní čísla (hodiny, rozsah,
-> stupně, finanční náročnost) stanoví vyhláška — nedomýšlej je.
+> Orientační shrnutí, ne právní výklad. Čerpá ze školského zákona (č. 561/2004 Sb., úplné znění
+> k 1. 9. 2025, které už zahrnuje odkladovou novelu z května 2025) a z prováděcí vyhlášky
+> č. 27/2016 Sb. (znění k 1. 9. 2026). Konkrétní čísla, která zde výslovně nejsou (celý výčet
+> opatření a jejich stupně, normovaná finanční náročnost), stanoví příloha č. 1 vyhlášky —
+> ta se zde nereprodukuje; takové detaily nedomýšlej a odkaž na vyhlášku a ŠPZ.
 
 ## Podpůrná opatření (PO) a jejich stupně — § 16
 
@@ -41,12 +42,19 @@ zdroj: "Zákon č. 561/2004 Sb. (školský zákon, úplné znění k 1. 9. 2025)
   povinen svolat), případně podat podnět České školní inspekci.
 - **Revize:** žádost do **30 dnů** od obdržení zprávy/doporučení k pověřené právnické osobě
   (Národní pedagogický institut); revizní zpráva do **60 dnů**.
+- **Platnost doporučení** (vyhláška 27/2016 Sb., § 15): ŠPZ stanoví dobu, po kterou je PO nezbytné —
+  **nejvýše 2 roky, v odůvodněných případech až 4 roky**; pro žáka lze v daném období vydat jen
+  1 doporučení. Škola poskytuje PO bezodkladně po doporučení a informovaném souhlasu; není-li PO
+  poskytnuto do 4 měsíců, projedná to s ŠPZ.
 
 ## Individuální vzdělávací plán (IVP) — § 18
 
 - IVP povolí **ředitel školy** na **žádost** zákonného zástupce / zletilého žáka a
   s **písemným doporučením ŠPZ** (u žáka se SVP nebo s mimořádným nadáním). Na SŠ/VOŠ lze
-  IVP povolit i z jiných závažných důvodů. Náležitosti IVP stanoví vyhláška č. 27/2016 Sb.
+  IVP povolit i z jiných závažných důvodů.
+- IVP je **závazný dokument**, zpracuje ho škola **nejpozději do 1 měsíce** od obdržení doporučení
+  a žádosti; obsahuje skladbu druhů a stupňů PO a úpravy obsahu, metod, forem a hodnocení. ŠPZ
+  jeho naplňování **nejméně jednou ročně** vyhodnocuje (vyhláška 27/2016 Sb., § 3 a § 4).
 
 ## Asistent pedagoga (AP) — § 16 odst. 2 písm. g), § 19 písm. h)
 
@@ -54,13 +62,17 @@ zdroj: "Zákon č. 561/2004 Sb. (školský zákon, úplné znění k 1. 9. 2025)
 
 - AP je **pedagogický pracovník, zaměstnanec školy** (v pracovněprávním vztahu ke škole,
   zaměstnavatelem je ředitel). ŠPZ **AP nezaměstnává a nestanovuje mu úvazek.**
-- ŠPZ **doporučuje AP jako podpůrné opatření** a doporučuje **rozsah jeho činnosti** u žáka;
-  škola pak AP zajistí a financuje podle **normované finanční náročnosti** (státní rozpočet).
+- ŠPZ **doporučuje AP jako podpůrné opatření** a doporučuje **rozsah hodin přímé pedagogické
+  činnosti** u žáka; škola AP zajistí a financuje podle **normované finanční náročnosti**.
+  Jednomu žákovi nelze doporučit víc než jedno opatření „asistent pedagoga".
 - **Úvazek** je věc zákoníku práce: plný úvazek = zpravidla **40 hodin týdně**. Nikdo (ani ŠPZ)
-  nemůže jednomu zaměstnanci „přidat" úvazek nad plný. Větší potřeba podpory se řeší
-  **jiným/vyšším PO nebo dalším pracovníkem**, ne úvazkem nad 40 hodin.
-- **Konkrétní pravidla a rozsah AP** (hodiny přímé pedagogické činnosti, sdílení mezi žáky,
-  stupně) stanoví **vyhláška č. 27/2016 Sb.** — konkrétní čísla ber odtud, nedomýšlej je.
+  nemůže jednomu zaměstnanci „přidat" úvazek nad plný. ŠPZ doporučuje jen rozsah přímé
+  pedagogické činnosti, ne úvazek člověka nad 40 hodin.
+- **Konkrétní limit (vyhláška 27/2016 Sb., § 5 odst. 7):** asistenta pedagoga jako PO lze
+  poskytovat **v souhrnu na 1 třídu nejvýše v průměru 36 hodin přímé pedagogické činnosti týdně**.
+  Překročit to lze jen při více žácích s PO 3.–5. stupně (více než 4 žáci; nebo alespoň 3, z nichž
+  jeden má závažné poruchy chování / autismus / kombinaci). Větší potřebu řeš vyšším stupněm
+  opatření nebo dalším pracovníkem, ne úvazkem nad rámec.
 
 ## Odklad povinné školní docházky — § 37
 
@@ -72,9 +84,11 @@ zdroj: "Zákon č. 561/2004 Sb. (školský zákon, úplné znění k 1. 9. 2025)
   důvodů** (zdravotní stav dlouhodobě neumožňuje účast ve vyučování), **pouze jednou**,
   a ŠPZ musí zároveň doporučit vzdělávání v MŠ / přípravné třídě podle IVP.
 
-## Co rámec NEobsahuje
+## Hranice rámce
 
-Přesná čísla a provozní detaily (konkrétní stupně a výčet PO, **rozsah hodin asistenta
-pedagoga**, normovaná finanční náročnost, náležitosti IVP a doporučení) stanoví **vyhláška
-č. 27/2016 Sb.**, jejíž plné znění zde není. Když se dotaz dotkne těchto detailů, odkaž na
-vyhlášku a na ŠPZ, případně na zřizovatele — **neuváděj konkrétní číslo z paměti.**
+Rámec shrnuje nejčastější dotazy (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga,
+odklad) ze školského zákona a z vyhlášky č. 27/2016 Sb. (§§ 2–5, 15–17). **Úplný výčet a zařazení
+jednotlivých opatření do stupňů a konkrétní normovanou finanční náročnost** obsahuje příloha č. 1
+vyhlášky (rozsáhlá tabulka) — tu rámec nereprodukuje. Když se dotaz dotkne detailu, který zde není
+výslovně uveden, odkaž na vyhlášku č. 27/2016 Sb., na doporučení ŠPZ, případně na zřizovatele —
+**neuváděj žádné konkrétní číslo z paměti.**

@@ -909,6 +909,9 @@ Obsah pro agentické dočítání i lidskou orientaci. Dvě vrstvy: **full** (v�
 |---|---|---|
 | 1 | Školský zákon — § 16, 16a, 16b, 17, 18, 19 (SVP) | `data/full/legislativa/skolsky-zakon-svp.md` |
 | 2 | Školský zákon — § 37 (odklad, vč. odkladové novely) | `data/full/legislativa/skolsky-zakon-odklad.md` |
+| 3 | Vyhláška 27/2016 Sb. — § 2–5, 15–17 (opatření, IVP, asistent pedagoga, doporučení) | `data/full/legislativa/vyhlaska-27-2016.md` |
 
-> Pozn.: Konkrétní čísla (rozsah asistenta pedagoga, zařazení opatření do stupňů, normovaná finanční
-> náročnost, náležitosti IVP) stanoví **vyhláška č. 27/2016 Sb.**, jejíž plný text zde zatím není.
+> Pozn.: Úplný výčet opatření a jejich zařazení do stupňů s normovanou finanční náročností je v
+> **příloze č. 1 vyhlášky 27/2016 Sb.** (rozsáhlá tabulka) — v datech je popsána, ne přepsána celá.
+> Klíčové číslo pro personální podporu: asistent pedagoga nejvýše v průměru **36 h přímé pedagogické
+> činnosti týdně na 1 třídu** (§ 5 odst. 7 vyhlášky).

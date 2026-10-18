@@ -846,3 +846,45 @@ Obsah pro agentické dočítání i lidskou orientaci. Dvě vrstvy: **full** (v�
 | 15 | Užitečné odkazy | `data/full/spuch/15-uzitecne-odkazy.md` |
 | 16 | Seznam použité literatury | `data/full/spuch/16-seznam-pouzite-literatury.md` |
 
+
+## vzo — Vzácná onemocnění
+
+*Cílová skupina:* žáci se vzácným onemocněním (cystická fibróza, galaktosemie, MPS, fenylketonurie, Prader-Williho, Rettův, SMA, Touretteův, Williamsův syndrom)  
+*Přehled:* `data/cards/vzo/_prehled.md`  
+*Všechny destiláty:* `data/cards/vzo/_all.md`  
+*Zdroj:* Metodika práce se žákem se vzácným onemocněním (Michalík a kol., 2012) — samostatná metodika, ne dílčí katalog KPO; prozaická struktura, **starší publikace** (legislativu ověřit).
+
+| Kód | Karta | Card |
+|---|---|---|
+| KOM | Komunikace a zapojení (žák, rodiče, spolužáci) | `data/cards/vzo/kom-komunikace-a-zapojeni.md` |
+| CF | Cystická fibróza | `data/cards/vzo/cf-cysticka-fibroza.md` |
+| GLS | Galaktosemie | `data/cards/vzo/gls-galaktosemie.md` |
+| MPS | Mukopolysacharidóza | `data/cards/vzo/mps-mukopolysacharidoza.md` |
+| PKU | Fenylketonurie (a jiné dědičné metabolické poruchy) | `data/cards/vzo/pku-fenylketonurie.md` |
+| PWS | Prader-Williho syndrom | `data/cards/vzo/pws-prader-williho-syndrom.md` |
+| RTT | Rettův syndrom | `data/cards/vzo/rtt-rettuv-syndrom.md` |
+| SMA | Spinální muskulární atrofie | `data/cards/vzo/sma-spinalni-muskularni-atrofie.md` |
+| TS | Touretteův syndrom | `data/cards/vzo/ts-touretteuv-syndrom.md` |
+| WS | Williamsův syndrom | `data/cards/vzo/ws-williamsuv-syndrom.md` |
+| DIST | Vzdálená výuka a jiné formy docházky | `data/cards/vzo/dist-vzdalena-vyuka.md` |
+
+**Plné znění (vrstva 1):**
+
+| # | Kapitola | Full |
+|---|---|---|
+| 1 | Úvod | `data/full/vzo/01-uvod.md` |
+| 2 | Pojem SVP a obecné podmínky vzdělávání | `data/full/vzo/02-pojem-svp-a-obecne-podminky.md` |
+| 3 | Faktory provázející vzdělávání ve škole | `data/full/vzo/03-faktory-provazejici-vzdelavani.md` |
+| 4 | Specifika komunikace | `data/full/vzo/04-specifika-komunikace.md` |
+| 5 | Cystická fibróza | `data/full/vzo/05-cysticka-fibroza.md` |
+| 6 | Galaktosemie | `data/full/vzo/06-galaktosemie.md` |
+| 7 | Mukopolysacharidóza | `data/full/vzo/07-mukopolysacharidoza.md` |
+| 8 | Fenylketonurie | `data/full/vzo/08-fenylketonurie.md` |
+| 9 | Prader–Willi syndrom | `data/full/vzo/09-prader-willi-syndrom.md` |
+| 10 | Rettův syndrom | `data/full/vzo/10-rettuv-syndrom.md` |
+| 11 | Spinální muskulární atrofie | `data/full/vzo/11-spinalni-muskularni-atrofie.md` |
+| 12 | Touretteův syndrom | `data/full/vzo/12-touretteuv-syndrom.md` |
+| 13 | Williamsův syndrom | `data/full/vzo/13-williamsuv-syndrom.md` |
+| 14 | Technické prostředky pro vzdálenou výuku | `data/full/vzo/14-technicke-prostredky-vzdalena-vyuka.md` |
+| 15 | Závěr | `data/full/vzo/15-zaver.md` |
+

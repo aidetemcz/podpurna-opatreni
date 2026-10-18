@@ -4113,6 +4113,90 @@
      "card": "data/cards/spuch/4-12-podpurna-opatreni-jineho-druhu.md"
     }
    ]
+  },
+  "vzo": {
+   "nazev": "Vzácná onemocnění",
+   "cilova_skupina": "žáci se vzácným onemocněním (cystická fibróza, galaktosemie, MPS, fenylketonurie, Prader-Williho, Rettův, SMA, Touretteův, Williamsův syndrom)",
+   "typ": "metodika",
+   "zdroj": "Metodika_prace_zak_se_vzacnym_onemocnenim_verze_elektr-web.pdf",
+   "poznamka": "Samostatná metodika (Michalík a kol., 2012), ne dílčí katalog KPO. Prozaická struktura (kapitoly 1–13). Karty = profil komunikace + 9 konkrétních onemocnění + vzdálená výuka. STARŠÍ zdroj (2012) — legislativu ověřit dle aktuálních předpisů.",
+   "prehled": "data/cards/vzo/_prehled.md",
+   "all": "data/cards/vzo/_all.md",
+   "pocet_karet": 11,
+   "kapitoly_full": [
+    "data/full/vzo/01-uvod.md",
+    "data/full/vzo/02-pojem-svp-a-obecne-podminky.md",
+    "data/full/vzo/03-faktory-provazejici-vzdelavani.md",
+    "data/full/vzo/04-specifika-komunikace.md",
+    "data/full/vzo/05-cysticka-fibroza.md",
+    "data/full/vzo/06-galaktosemie.md",
+    "data/full/vzo/07-mukopolysacharidoza.md",
+    "data/full/vzo/08-fenylketonurie.md",
+    "data/full/vzo/09-prader-willi-syndrom.md",
+    "data/full/vzo/10-rettuv-syndrom.md",
+    "data/full/vzo/11-spinalni-muskularni-atrofie.md",
+    "data/full/vzo/12-touretteuv-syndrom.md",
+    "data/full/vzo/13-williamsuv-syndrom.md",
+    "data/full/vzo/14-technicke-prostredky-vzdalena-vyuka.md",
+    "data/full/vzo/15-zaver.md"
+   ],
+   "karty": [
+    {
+     "kod": "KOM",
+     "nazev": "Komunikace a zapojení (žák, rodiče, spolužáci)",
+     "card": "data/cards/vzo/kom-komunikace-a-zapojeni.md"
+    },
+    {
+     "kod": "CF",
+     "nazev": "Cystická fibróza",
+     "card": "data/cards/vzo/cf-cysticka-fibroza.md"
+    },
+    {
+     "kod": "GLS",
+     "nazev": "Galaktosemie",
+     "card": "data/cards/vzo/gls-galaktosemie.md"
+    },
+    {
+     "kod": "MPS",
+     "nazev": "Mukopolysacharidóza",
+     "card": "data/cards/vzo/mps-mukopolysacharidoza.md"
+    },
+    {
+     "kod": "PKU",
+     "nazev": "Fenylketonurie (a jiné dědičné metabolické poruchy)",
+     "card": "data/cards/vzo/pku-fenylketonurie.md"
+    },
+    {
+     "kod": "PWS",
+     "nazev": "Prader-Williho syndrom",
+     "card": "data/cards/vzo/pws-prader-williho-syndrom.md"
+    },
+    {
+     "kod": "RTT",
+     "nazev": "Rettův syndrom",
+     "card": "data/cards/vzo/rtt-rettuv-syndrom.md"
+    },
+    {
+     "kod": "SMA",
+     "nazev": "Spinální muskulární atrofie",
+     "card": "data/cards/vzo/sma-spinalni-muskularni-atrofie.md"
+    },
+    {
+     "kod": "TS",
+     "nazev": "Touretteův syndrom",
+     "card": "data/cards/vzo/ts-touretteuv-syndrom.md"
+    },
+    {
+     "kod": "WS",
+     "nazev": "Williamsův syndrom",
+     "card": "data/cards/vzo/ws-williamsuv-syndrom.md"
+    },
+    {
+     "kod": "DIST",
+     "nazev": "Vzdálená výuka a jiné formy docházky",
+     "card": "data/cards/vzo/dist-vzdalena-vyuka.md"
+    }
+   ]
   }
  }
 }

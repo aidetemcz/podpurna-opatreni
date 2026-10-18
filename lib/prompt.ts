@@ -1,6 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { getCategory, type CategoryCode } from './categories';
-import { loadCategoryContent } from './catalog';
+import { loadCategoryContent, loadLegalFramework } from './catalog';
 
 const ROLE_INSTRUCTIONS = `Jsi asistent pro učitele, který pomáhá individualizovat výuku a výukové materiály pro konkrétního žáka se speciálními vzdělávacími potřebami (SVP). Píšeš česky, věcně a prakticky.
 
@@ -17,6 +17,12 @@ Věcné ukotvení:
 Role a hranice:
 - Doporučení školského poradenského zařízení (ŠPZ — PPP/SPC) a v něm stanovená podpůrná opatření jsou pro školu závazná. Nezpochybňuj je ani nehodnoť jejich správnost — pomáhej je realizovat ve výuce. Když se učitel ptá, zda je opatření zbytečné nebo špatné, vysvětli, že o změně rozhoduje ŠPZ, a nabídni, jak opatření prakticky naplnit nebo jak podnět předat ŠPZ.
 - Nestanovuj diagnózu ani stupeň podpory.
+
+Legislativa:
+- Když se dotaz dotkne legislativy (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga, odklad, informovaný souhlas), vycházej z oddílu „LEGISLATIVNÍ RÁMEC" níže.
+- Právní fakta si NIKDY nedomýšlej ani neodvozuj. Konkrétní čísla (úvazky, hodiny, lhůty, stupně, normovaná finanční náročnost) uváděj jen tehdy, jsou-li v rámci výslovně napsaná. Když tam nejsou, řekni, že to stanoví prováděcí vyhláška č. 27/2016 Sb. nebo doporučení ŠPZ, a odkaž učitele tam — žádné konkrétní číslo z paměti.
+- Zvlášť pozor na personální podporu: asistenta pedagoga nezaměstnává ani mu neurčuje úvazek ŠPZ/SPC — je to zaměstnanec školy, plný úvazek je zpravidla 40 hodin týdně a nelze jej „navýšit" nad plný úvazek. Větší potřebu řeš jiným/vyšším opatřením, ne úvazkem nad 40 hodin.
+- Rámec je orientační pomůcka, ne právní výklad. Při pochybnostech odkaž na ŠPZ, zřizovatele nebo aktuální znění předpisů.
 
 Jazyk a čtivost:
 - Učitele oslovuj vykáním (vy) a drž to v celé odpovědi. Pokyny, které má učitel říct žákovi, uváděj jako přímou řeč v uvozovkách nebo uvozením „řekněte žákovi: …" — nemíchej je do vlastního textu.
@@ -41,15 +47,18 @@ Tvorba materiálů:
 export function buildSystemPrompt(code: CategoryCode): Anthropic.TextBlockParam[] {
   const cat = getCategory(code);
   const { prehled, vsechnyKarty } = loadCategoryContent(code);
+  const legal = loadLegalFramework();
 
-  const header = `${ROLE_INSTRUCTIONS}
+  // Stabilní část (pokyny + legislativní rámec) je stejná pro všechny kategorie,
+  // takže ji lze cachovat společně. Cílová skupina a katalog jsou per-kategorie.
+  const header = legal
+    ? `${ROLE_INSTRUCTIONS}\n\n---\n\n# LEGISLATIVNÍ RÁMEC\n\n${legal}`
+    : ROLE_INSTRUCTIONS;
 
-Vybraná cílová skupina žáka: **${cat?.nazev}** (${cat?.cil}).`;
-
-  const catalog = `# PŘEHLED CÍLOVÉ SKUPINY\n\n${prehled}\n\n---\n\n# DESTILOVANÉ KARTY PODPŮRNÝCH OPATŘENÍ\n\n${vsechnyKarty}`;
+  const catalog = `Vybraná cílová skupina žáka: **${cat?.nazev}** (${cat?.cil}).\n\n# PŘEHLED CÍLOVÉ SKUPINY\n\n${prehled}\n\n---\n\n# DESTILOVANÉ KARTY PODPŮRNÝCH OPATŘENÍ\n\n${vsechnyKarty}`;
 
   return [
-    { type: 'text', text: header },
+    { type: 'text', text: header, cache_control: { type: 'ephemeral' } },
     { type: 'text', text: catalog, cache_control: { type: 'ephemeral' } },
   ];
 }

@@ -60,7 +60,7 @@ Data vznikla převodem 9 PDF Katalogu do Markdownu, ve dvou vrstvách (`data/`):
   - `_all.md` — všechny destilované karty katalogu v jednom souboru (jde do promptu),
   - jednotlivé karty `<kód>-<název>.md` (šablona: *Kdy použít / Co to je / Jak ve výuce / Pozor na*).
 
-**Cílové skupiny dostupné v appce (8 chatbotů):**
+**Cílové skupiny dostupné v appce (9 chatbotů):**
 
 | Kód | Skupina | Karet |
 |---|---|---|
@@ -72,14 +72,18 @@ Data vznikla převodem 9 PDF Katalogu do Markdownu, ve dvou vrstvách (`data/`):
 | `tp` | Tělesné postižení a závažné onemocnění | 54 |
 | `szn` | Sociální znevýhodnění | 77 |
 | `spuch` | Specifické poruchy učení a chování (dyslexie, dysgrafie, dysortografie, dyskalkulie, ADHD/ADD) | 18 |
+| `vzo` | Vzácná onemocnění (9 konkrétních diagnóz + profil komunikace + vzdálená výuka) | 11 |
 
 Další dva katalogy (`vseobecny` — obecná část/metodika, `szn-metodika`) jsou v datech jako podklad, ale **nejsou to cílové skupiny v appce** (nemají chatbota).
 
-**Celkem 388 destilovaných karet.** Rejstřík: `data/index.md` (pro lidi) a `data/manifest.json` (strojově). Protokol o převodu a kontrole kvality: `data/REPORT.md`.
+**Legislativní rámec (`data/cards/legislativa/`)** je **průřezový** — vkládá se do promptu pro **všechny** skupiny (ne volitelná kategorie). Destilát `_ramec.md` + 5 tematických karet (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga, odklad) vychází ze školského zákona (č. 561/2004 Sb., úplné znění k 1. 9. 2025 vč. odkladové novely); věrný přepis je v `data/full/legislativa/`. Reaguje na připomínku, že chatbot „plácal“ v personální podpoře a domýšlel si právo (např. že SPC dá asistentovi úvazek nad 40 h). Prompt má pravidlo: **právní fakta nedomýšlet**; konkrétní čísla stanoví vyhláška č. 27/2016 Sb. (její plný text zatím není v datech).
+
+**Celkem 399 destilovaných karet opatření + 5 karet legislativního rámce.** Rejstřík: `data/index.md` (pro lidi) a `data/manifest.json` (strojově). Protokol o převodu a kontrole kvality: `data/REPORT.md`.
 
 **Na co u připomínek myslet ohledně dat:**
-- `spuch` má **odlišnou, prozaickou strukturu** (kapitoly, ne standardizované karty PO) a jeho destiláty jsou nové — u připomínek k SPUCH je vyšší šance na potřebu odborné revize.
+- `spuch` a `vzo` mají **odlišnou, prozaickou strukturu** (kapitoly, ne standardizované karty PO) a jejich destiláty jsou nové — vyšší šance na potřebu odborné revize; `vzo` navíc vychází ze **staršího zdroje (2012)**, legislativu je u něj nutné brát z průřezového rámce / aktuálních předpisů.
 - ADHD/poruchy pozornosti se v katalogu objevují **napříč** (hlavně `spuch` a `pas`, karta „2.8 Prevence únavy a podpora koncentrace pozornosti“ i v ostatních dílech). Katalog i appka pracují **po jedné skupině** — souběh více znevýhodnění není nativně pokrytý.
+- **Legislativní dotazy** (asistent pedagoga, stupně PO, odklad, IVP) jsou nově podloženy průřezovým rámcem, ale konkrétní čísla z vyhlášky 27/2016 v datech zatím nejsou — chatbot na ně odkazuje, nedomýšlí je.
 
 ---
 

@@ -1,6 +1,6 @@
 # REPORT — převod Katalogu podpůrných opatření do Markdownu
 
-Stav: **kompletní** — všech 9 katalogů (obecná část, 7 dílčích, metodika k SZN) převedeno do dvou vrstev.
+Stav: **kompletní** — všech 9 katalogů (obecná část, 7 dílčích, metodika k SZN) + 2 samostatné metodiky (SPUCH, vzácná onemocnění) převedeno do dvou vrstev. Navíc průřezový **legislativní rámec** (školský zákon) jako vždy vkládaný blok promptu.
 
 ## Metodika
 
@@ -28,13 +28,16 @@ Odhad tokenů = znaky ÷ 2,5 (konzervativní pro češtinu; skutečnost bývá n
 | szn-metodika | 8 kapitol | — | ~121 000 | — (jen `_prehled.md`) |
 | spuch | 16 kapitol / 12 kap. PO | 18 | ~236 000 | ~10 900 |
 | vzo | 15 kapitol (9 onemocnění) | 11 | ~233 000 | ~8 400 |
-| **Celkem** | | **399 karet** | | |
+| legislativa | 2 části (školský zákon) | 5 | — | ~2 000 (`_ramec.md`) |
+| **Celkem** | | **399 karet opatření + 5 karet legislativního rámce** | | |
 
 *(mp nemá oblast č. 8 — v předloze k ní nejsou karty.)*
 
 *(spuch — dílčí část specifické poruchy učení a chování /Jucovičová, Žáčková, 2020/ — má **odlišnou, prozaickou strukturu** než ostatní dílčí katalogy: nemá oblasti podpory ani standardizované karty PO, nýbrž kapitoly 1–7. Vrstva 1 je členěná na 16 souborů podle tištěného obsahu; destilované „karty" (18) odpovídají kapitolám podpůrných opatření 4.1–4.12. Extrakce vlastním skriptem `scripts/build_spuch.py`, destilace ručně ze plných kapitol.)*
 
 *(vzo — **samostatná Metodika práce se žákem se vzácným onemocněním** /Michalík a kol., 2012/, NENÍ dílčí katalog KPO. Prozaická struktura (kapitoly 1–13 + úvod/závěr), vrstva 1 v 15 souborech; destilované karty (11) = profil komunikace + 9 konkrétních onemocnění (cystická fibróza, galaktosemie, MPS, fenylketonurie, Prader-Williho, Rettův, SMA, Touretteův, Williamsův syndrom) + vzdálená výuka. Extrakce vlastním skriptem `scripts/build_vzo.py`, destilace ručně z plných kapitol. **Starší zdroj (2012)** — legislativní odkazy je nutné ověřit podle aktuálních předpisů; vhodná odborná revize před ostrým nasazením.)*
+
+*(legislativa — **průřezový legislativní rámec**, ne cílová skupina. Vrstva 1 = věrný přepis vybraných paragrafů školského zákona (č. 561/2004 Sb., úplné znění k 1. 9. 2025, které už zahrnuje odkladovou novelu z května 2025): § 16, 16a, 16b, 17, 18, 19 (SVP) a § 37 (odklad). Vrstva 2 = destilát `_ramec.md`, který se vkládá do system promptu pro **všechny** cílové skupiny (ne volitelná kategorie v UI), + 5 tematických karet (podpůrná opatření a stupně, role ŠPZ, IVP, asistent pedagoga, odklad). Reaguje na připomínku, že chatbot „plácal" v personální podpoře a domýšlel si právní fakta (např. že SPC může dát asistentovi pedagoga úvazek nad 40 h) — rámec tuto představu výslovně vyvrací. **Konkrétní čísla** (rozsah AP, zařazení do stupňů, normovaná finanční náročnost, náležitosti IVP) stanoví **vyhláška č. 27/2016 Sb.**, jejíž plný text zatím není stažen — prompt proto chatbotu zakazuje čísla domýšlet a odkazuje na vyhlášku a ŠPZ. Odborná revize před ostrým nasazením doporučena.)*
 
 ## Kontrola kvality
 

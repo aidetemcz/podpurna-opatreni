@@ -38,3 +38,13 @@ export function loadCategoryContent(code: CategoryCode): CatalogContent {
     vsechnyKarty: all.trim(),
   };
 }
+
+/**
+ * Načte destilovaný legislativní rámec (data/cards/legislativa/_ramec.md).
+ * Vkládá se do system promptu pro VŠECHNY kategorie (průřezový obsah).
+ * Když soubor chybí, vrátí null — prompt se sestaví bez něj (fail-soft).
+ */
+export function loadLegalFramework(): string | null {
+  const ramec = readIfExists(path.join(DATA_DIR, 'cards', 'legislativa', '_ramec.md'));
+  return ramec ? stripFrontmatter(ramec) : null;
+}

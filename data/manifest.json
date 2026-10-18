@@ -4197,6 +4197,46 @@
      "card": "data/cards/vzo/dist-vzdalena-vyuka.md"
     }
    ]
+  },
+  "legislativa": {
+   "nazev": "Legislativní rámec",
+   "cilova_skupina": "průřezový orientační právní rámec — vkládá se do promptu pro VŠECHNY kategorie, není to volitelná kategorie v aplikaci",
+   "typ": "ramec",
+   "zdroj": "skolskyzakon_ke_dni_1.9.2025.pdf (561/2004 Sb., úplné znění k 1. 9. 2025, zahrnuje odkladovou novelu); odkaz na vyhlášku 27/2016 Sb.",
+   "poznamka": "Orientační pomůcka, ne právní výklad. Řeší časté dotazy na personální podporu (asistent pedagoga), podpůrná opatření a stupně, roli ŠPZ, IVP a odklad. Konkrétní čísla (rozsah AP, stupně, finanční náročnost) stanoví vyhláška 27/2016 Sb., jejíž plný text zde zatím není.",
+   "ramec": "data/cards/legislativa/_ramec.md",
+   "pocet_karet": 5,
+   "kapitoly_full": [
+    "data/full/legislativa/skolsky-zakon-svp.md",
+    "data/full/legislativa/skolsky-zakon-odklad.md"
+   ],
+   "karty": [
+    {
+     "kod": "§ 16",
+     "nazev": "Podpůrná opatření a jejich stupně",
+     "card": "data/cards/legislativa/podpurna-opatreni-a-stupne.md"
+    },
+    {
+     "kod": "§ 16a, § 16b",
+     "nazev": "Role ŠPZ — zpráva, doporučení, revize",
+     "card": "data/cards/legislativa/role-spz.md"
+    },
+    {
+     "kod": "§ 18",
+     "nazev": "Individuální vzdělávací plán (IVP)",
+     "card": "data/cards/legislativa/ivp.md"
+    },
+    {
+     "kod": "§ 16/§ 19",
+     "nazev": "Asistent pedagoga",
+     "card": "data/cards/legislativa/asistent-pedagoga.md"
+    },
+    {
+     "kod": "§ 37",
+     "nazev": "Odklad povinné školní docházky",
+     "card": "data/cards/legislativa/odklad-povinne-skolni-dochazky.md"
+    }
+   ]
   }
  }
 }

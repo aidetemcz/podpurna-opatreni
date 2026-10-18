@@ -888,3 +888,27 @@ Obsah pro agentické dočítání i lidskou orientaci. Dvě vrstvy: **full** (v�
 | 14 | Technické prostředky pro vzdálenou výuku | `data/full/vzo/14-technicke-prostredky-vzdalena-vyuka.md` |
 | 15 | Závěr | `data/full/vzo/15-zaver.md` |
 
+
+## legislativa — Legislativní rámec (průřezový)
+
+*Charakter:* Orientační právní rámec, který se vkládá do promptu pro **všechny** cílové skupiny (není to volitelná kategorie v aplikaci). Řeší časté dotazy přesahující do legislativy — zejména personální podporu (asistent pedagoga).  
+*Rámec (destilát, vkládaný do promptu):* `data/cards/legislativa/_ramec.md`  
+*Zdroj:* zákon č. 561/2004 Sb. (školský zákon, úplné znění k 1. 9. 2025 — zahrnuje odkladovou novelu); odkaz na vyhlášku č. 27/2016 Sb.
+
+| Kód | Téma | Karta |
+|---|---|---|
+| § 16 | Podpůrná opatření a jejich stupně | `data/cards/legislativa/podpurna-opatreni-a-stupne.md` |
+| § 16a, § 16b | Role ŠPZ — zpráva, doporučení, revize | `data/cards/legislativa/role-spz.md` |
+| § 18 | Individuální vzdělávací plán (IVP) | `data/cards/legislativa/ivp.md` |
+| § 16/§ 19 | Asistent pedagoga | `data/cards/legislativa/asistent-pedagoga.md` |
+| § 37 | Odklad povinné školní docházky | `data/cards/legislativa/odklad-povinne-skolni-dochazky.md` |
+
+**Plné znění (vrstva 1 — věrný přepis):**
+
+| # | Část | Full |
+|---|---|---|
+| 1 | Školský zákon — § 16, 16a, 16b, 17, 18, 19 (SVP) | `data/full/legislativa/skolsky-zakon-svp.md` |
+| 2 | Školský zákon — § 37 (odklad, vč. odkladové novely) | `data/full/legislativa/skolsky-zakon-odklad.md` |
+
+> Pozn.: Konkrétní čísla (rozsah asistenta pedagoga, zařazení opatření do stupňů, normovaná finanční
+> náročnost, náležitosti IVP) stanoví **vyhláška č. 27/2016 Sb.**, jejíž plný text zde zatím není.

@@ -239,6 +239,19 @@ export default function Page() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/upol-logo.png" alt="Univerzita Palackého v Olomouci" />
           </a>
+          <p className="foot-note foot-support">
+            Výrobu a testování prototypu jsme uskutečnili za finanční podpory ČEPS, a.s.
+          </p>
+          <a
+            href="https://www.ceps.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="foot-ceps"
+            aria-label="ČEPS, a.s."
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/ceps-logo.png" alt="ČEPS, a.s." />
+          </a>
         </div>
       </aside>
 

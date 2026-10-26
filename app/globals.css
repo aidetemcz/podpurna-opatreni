@@ -219,6 +219,26 @@ h3,
   opacity: 1;
 }
 
+.foot-support {
+  margin-top: 16px;
+}
+
+.foot-ceps {
+  display: block;
+  margin-top: 8px;
+}
+
+.foot-ceps img {
+  width: 108px;
+  height: auto;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+
+.foot-ceps:hover img {
+  opacity: 1;
+}
+
 /* ---------- Hlavní oblast ---------- */
 .main {
   flex: 1;
